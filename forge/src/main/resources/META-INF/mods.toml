@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/starfish-studios/DelightfulDecor/issues"
+
+[[mods]]
+modId = "mod_template"
+version = "${version}"
+displayName = "mod_template"
+#updateJSONURL="http://myurl.me/"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/delightful_decor"
+logoFile = "icon.png"
+#credits="Thanks for this example mod goes to Java"
+authors = "crispytwig"
+description = '''
+Decorative blocks out of scope to Another Furniture
+'''
+
+[[dependencies.mod_template]]
+modId = "forge"
+mandatory = true
+versionRange = "[43.1.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mod_template]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_template",
+  "version": "${version}",
+  "name": "Mod Template",
+  "description": "A template for creating mods.",
+  "authors": [
+    "crispytwig"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/another-furniture",
+    "issues": "https://github.com/starfish-studios/AnotherFurniture/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.crispytwig.mod_template.fabric.ModFabric"
+    ],
+    "client": [
+      "com.crispytwig.mod_template.fabric.ModFabricClient"
+    ]
+  },
+  "mixins": [
+    "mod_template.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": ">=1.19.2"
+  }
+}
