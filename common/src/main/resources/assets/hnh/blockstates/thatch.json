@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hnh:block/thatch",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hnh:block/thatch"
+    },
+    "axis=z": {
+      "model": "hnh:block/thatch",
+      "x": 90
+    }
+  }
+}

@@ -2,12 +2,33 @@
   "itemGroup.hnh.tab": "Hearth & Home",
   "itemGroup.hnh": "Hearth & Home",
 
-  "container.crate": "Crate",
-  "container.crate.more": "and %s more...",
-
   "block.hnh.oak_trim": "Oak Trim",
   "block.hnh.oak_mosaic": "Oak Mosaic",
+
   "block.hnh.cobblestone_bricks": "Cobblestone Bricks",
+  "block.hnh.cobblestone_brick_stairs": "Cobblestone Brick Stairs",
+  "block.hnh.cobblestone_brick_slab": "Cobblestone Brick Slab",
+  "block.hnh.cobblestone_brick_wall": "Cobblestone Brick Wall",
+
   "block.hnh.thatch": "Thatch",
-  "block.hnh.crate": "Crate"
+  "block.hnh.thatch_slab": "Thatch Slab",
+  "block.hnh.thatch_stairs": "Thatch Stairs",
+
+  "block.hnh.shingles": "Shingles",
+  "block.hnh.white_shingles": "White Shingles",
+  "block.hnh.orange_shingles": "Orange Shingles",
+  "block.hnh.magenta_shingles": "Magenta Shingles",
+  "block.hnh.light_blue_shingles": "Light Blue Shingles",
+  "block.hnh.yellow_shingles": "Yellow Shingles",
+  "block.hnh.lime_shingles": "Lime Shingles",
+  "block.hnh.pink_shingles": "Pink Shingles",
+  "block.hnh.gray_shingles": "Gray Shingles",
+  "block.hnh.light_gray_shingles": "Light Gray Shingles",
+  "block.hnh.cyan_shingles": "Cyan Shingles",
+  "block.hnh.purple_shingles": "Purple Shingles",
+  "block.hnh.blue_shingles": "Blue Shingles",
+  "block.hnh.brown_shingles": "Brown Shingles",
+  "block.hnh.green_shingles": "Green Shingles",
+  "block.hnh.red_shingles": "Red Shingles",
+  "block.hnh.black_shingles": "Black Shingles"
 }

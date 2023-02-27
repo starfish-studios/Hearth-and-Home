@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"main": "block/bricks",
+		"particle": "hnh:block/brick_top_lit",
+		"top": "hnh:block/brick_top_lit"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 8, 14],
+			"faces": {
+				"north": {"uv": [2, 8, 14, 16], "texture": "#main"},
+				"east": {"uv": [2, 8, 14, 16], "texture": "#main"},
+				"south": {"uv": [2, 8, 14, 16], "texture": "#main"},
+				"west": {"uv": [2, 8, 14, 16], "texture": "#main"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#main"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#main"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#main"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#main"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#main"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#main"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#main"}
+			}
+		}
+	]
+}

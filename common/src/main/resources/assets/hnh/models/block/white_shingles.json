@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "hnh:block/crate"
+    "all": "hnh:block/white_shingles"
   }
 }

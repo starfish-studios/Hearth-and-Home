@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "hnh:block/magenta_shingles",
+            "y": 270
+        },
+        "facing=north": {
+            "model": "hnh:block/magenta_shingles",
+            "y": 180
+        },
+        "facing=south": {
+            "model": "hnh:block/magenta_shingles"
+        },
+        "facing=west": {
+            "model": "hnh:block/magenta_shingles",
+            "y": 90
+        }
+    }
+}

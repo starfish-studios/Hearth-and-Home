@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hnh:block/thatch_slab"
+    },
+    "type=double": {
+      "model": "hnh:block/thatch"
+    },
+    "type=top": {
+      "model": "hnh:block/thatch_slab_top"
+    }
+  }
+}
