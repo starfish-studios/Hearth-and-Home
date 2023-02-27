@@ -1,0 +1,13 @@
+{
+  "itemGroup.hnh.tab": "Hearth & Home",
+  "itemGroup.hnh": "Hearth & Home",
+
+  "container.crate": "Crate",
+  "container.crate.more": "and %s more...",
+
+  "block.hnh.oak_trim": "Oak Trim",
+  "block.hnh.oak_mosaic": "Oak Mosaic",
+  "block.hnh.cobblestone_bricks": "Cobblestone Bricks",
+  "block.hnh.thatch": "Thatch",
+  "block.hnh.crate": "Crate"
+}

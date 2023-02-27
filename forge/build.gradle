@@ -11,7 +11,7 @@ architectury {
 
 loom {
     forge {
-        mixinConfig "mod_template.mixins.json"
+        mixinConfig "hearth_and_home.mixins.json"
     }
 }
 
@@ -25,7 +25,6 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
-    modImplementation ("software.bernie.geckolib:geckolib-forge-1.19:${rootProject.geckolib_forge_version}")
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 

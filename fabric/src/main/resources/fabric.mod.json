@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "mod_template",
+  "id": "hearth_and_home",
   "version": "${version}",
-  "name": "Mod Template",
+  "name": "Hearth & Home",
   "description": "A template for creating mods.",
   "authors": [
     "crispytwig"
@@ -16,14 +16,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.crispytwig.mod_template.fabric.ModFabric"
+      "com.crispytwig.hearth_and_home.fabric.ModFabric"
     ],
     "client": [
-      "com.crispytwig.mod_template.fabric.ModFabricClient"
+      "com.crispytwig.hearth_and_home.fabric.ModFabricClient"
     ]
   },
   "mixins": [
-    "mod_template.mixins.json"
+    "hearth_and_home.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.9",
