@@ -1,6 +1,7 @@
 package com.crispytwig.hearth_and_home.registry;
 
 import com.crispytwig.hearth_and_home.Mod;
+import com.crispytwig.hearth_and_home.block.RotatingSlabBlock;
 import com.crispytwig.hearth_and_home.block.StairBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -30,7 +31,6 @@ public class ModBlocks {
     public static final Supplier<Block> SANDED_DARK_OAK_WOOD = registerBlock("sanded_dark_oak_wood", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_WOOD)));
     public static final Supplier<Block> SANDED_CRIMSON_WOOD = registerBlock("sanded_crimson_wood", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_HYPHAE)));
     public static final Supplier<Block> SANDED_WARPED_WOOD = registerBlock("sanded_warped_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
-
 
     // Terracotta Shingles
     public static final Supplier<Block> SHINGLES = registerBlock("shingles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
@@ -84,6 +84,42 @@ public class ModBlocks {
     public static final Supplier<Block> BLACK_SHINGLES = registerBlock("black_shingles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
     public static final Supplier<Block> BLACK_SHINGLE_STAIRS = registerBlock("black_shingle_stairs", () -> new StairBlock(BLACK_SHINGLES.get().defaultBlockState(), Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
     public static final Supplier<Block> BLACK_SHINGLE_SLAB = registerBlock("black_shingle_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+
+    // Tiles
+    public static final Supplier<Block> TILES = registerBlock("tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> TILE_SLAB = registerBlock("tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TILES = registerBlock("white_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TILE_SLAB = registerBlock("white_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TILES = registerBlock("orange_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TILE_SLAB = registerBlock("orange_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TILES = registerBlock("magenta_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TILE_SLAB = registerBlock("magenta_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TILES = registerBlock("light_blue_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TILE_SLAB = registerBlock("light_blue_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TILES = registerBlock("yellow_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TILE_SLAB = registerBlock("yellow_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TILES = registerBlock("lime_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TILE_SLAB = registerBlock("lime_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TILES = registerBlock("pink_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TILE_SLAB = registerBlock("pink_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TILES = registerBlock("gray_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TILE_SLAB = registerBlock("gray_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TILES = registerBlock("light_gray_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TILE_SLAB = registerBlock("light_gray_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TILES = registerBlock("cyan_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TILE_SLAB = registerBlock("cyan_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TILES = registerBlock("purple_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TILE_SLAB = registerBlock("purple_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TILES = registerBlock("blue_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TILE_SLAB = registerBlock("blue_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TILES = registerBlock("brown_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TILE_SLAB = registerBlock("brown_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TILES = registerBlock("green_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TILE_SLAB = registerBlock("green_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> RED_TILES = registerBlock("red_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> RED_TILE_SLAB = registerBlock("red_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TILES = registerBlock("black_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TILE_SLAB = registerBlock("black_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
 
 
 

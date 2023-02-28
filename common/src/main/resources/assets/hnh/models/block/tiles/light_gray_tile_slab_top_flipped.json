@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "hnh:block/tiles/light_gray_tiles_flipped",
+        "side": "hnh:block/tiles/light_gray_tiles_flipped",
+        "top": "hnh:block/tiles/light_gray_tiles_flipped"
+    }
+}
