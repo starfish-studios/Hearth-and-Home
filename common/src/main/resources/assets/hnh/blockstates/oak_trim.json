@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "hnh:block/oak_trim"
+      "model": "hnh:block/trim/oak_trim"
     }
   }
 }

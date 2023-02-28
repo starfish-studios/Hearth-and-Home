@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "hnh:block/blue_shingles",
+        "side": "hnh:block/blue_shingles",
+        "top": "hnh:block/blue_shingles"
+    }
+}

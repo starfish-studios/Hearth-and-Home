@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "hnh:block/shingles/cyan_shingle_slab"
+        },
+        "type=double": {
+            "model": "hnh:block/shingles/cyan_shingles"
+        },
+        "type=top": {
+            "model": "hnh:block/shingles/cyan_shingle_slab_top"
+        }
+    }
+}

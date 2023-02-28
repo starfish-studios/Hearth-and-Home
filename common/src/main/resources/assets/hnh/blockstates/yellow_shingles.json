@@ -1,18 +1,18 @@
 {
     "variants": {
         "facing=east": {
-            "model": "hnh:block/yellow_shingles",
+            "model": "hnh:block/shingles/yellow_shingles",
             "y": 270
         },
         "facing=north": {
-            "model": "hnh:block/yellow_shingles",
+            "model": "hnh:block/shingles/yellow_shingles",
             "y": 180
         },
         "facing=south": {
-            "model": "hnh:block/yellow_shingles"
+            "model": "hnh:block/shingles/yellow_shingles"
         },
         "facing=west": {
-            "model": "hnh:block/yellow_shingles",
+            "model": "hnh:block/shingles/yellow_shingles",
             "y": 90
         }
     }
