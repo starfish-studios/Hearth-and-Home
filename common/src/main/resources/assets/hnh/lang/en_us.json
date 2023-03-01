@@ -4,12 +4,33 @@
 
   "hnh.subtitles.block.chimney.crackle": "Chimney crackles",
 
+  "block.hnh.stone_column": "Stone Column",
+
+  "block.hnh.calcite_stairs": "Calcite Stairs",
+  "block.hnh.calcite_slab": "Calcite Slab",
+  "block.hnh.calcite_wall": "Calcite Wall",
+  "block.hnh.polished_calcite": "Polished Calcite",
+  "block.hnh.polished_calcite_stairs": "Polished Calcite Stairs",
+  "block.hnh.polished_calcite_slab": "Polished Calcite Slab",
+  "block.hnh.polished_calcite_wall": "Polished Calcite Wall",
+  "block.hnh.calcite_bricks": "Calcite Bricks",
+  "block.hnh.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.hnh.calcite_brick_slab": "Calcite Brick Slab",
+  "block.hnh.calcite_brick_wall": "Calcite Brick Wall",
+  "block.hnh.chiseled_calcite": "Chiseled Calcite",
+  "block.hnh.calcite_pillar": "Calcite Pillar",
+
+  "block.hnh.barred_glass": "Barred Glass",
+  "block.hnh.barred_glass_pane": "Barred Glass Pane",
+
+
   "block.hnh.oak_trim": "Oak Trim",
   "block.hnh.spruce_trim": "Spruce Trim",
   "block.hnh.birch_trim": "Birch Trim",
   "block.hnh.jungle_trim": "Jungle Trim",
   "block.hnh.acacia_trim": "Acacia Trim",
   "block.hnh.dark_oak_trim": "Dark Oak Trim",
+  "block.hnh.mangrove_trim": "Mangrove Trim",
   "block.hnh.crimson_trim": "Crimson Trim",
   "block.hnh.warped_trim": "Warped Trim",
 

@@ -1,9 +1,9 @@
 package com.crispytwig.hearth_and_home.registry;
 
 import com.crispytwig.hearth_and_home.Mod;
-import com.crispytwig.hearth_and_home.block.ChimneyBlock;
-import com.crispytwig.hearth_and_home.block.RotatingSlabBlock;
+import com.crispytwig.hearth_and_home.block.*;
 import com.crispytwig.hearth_and_home.block.StairBlock;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -13,16 +13,41 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
+    // Torches
+    // public static final Supplier<Block> IRON_TORCH = registerBlock("iron_torch", () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH).noOcclusion(), ParticleTypes.FLAME));
+
+    public static final Supplier<Block> BARRED_GLASS = registerBlock("barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+    public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)));
+
+    // Columns
+    public static final Supplier<Block> STONE_COLUMN = registerBlock("stone_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    // Calcite Blocks
+    // public static final Supplier<Block> CALCITE_STAIRS = registerBlock("calcite_stairs", () -> new StairBlock(Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_SLAB = registerBlock("calcite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_WALL = registerBlock("calcite_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    public static final Supplier<Block> POLISHED_CALCITE = registerBlock("polished_calcite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> POLISHED_CALCITE_STAIRS = registerBlock("polished_calcite_stairs", () -> new StairBlock(Blocks.POLISHED_BLACKSTONE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)));
+    public static final Supplier<Block> POLISHED_CALCITE_SLAB = registerBlock("polished_calcite_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> POLISHED_CALCITE_WALL = registerBlock("polished_calcite_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE)));
+    // public static final Supplier<Block> CALCITE_BRICKS = registerBlock("calcite_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs", () -> new StairBlock(Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab", () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    // public static final Supplier<Block> CALCITE_COLUMN = registerBlock("calcite_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    public static final Supplier<Block> CHISELED_CALCITE = registerBlock("chiseled_calcite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+
+
     // Chimneys
+    public static final Supplier<Block> POLISHED_BLACKSTONE_BRICK_CHIMNEY = registerBlock("polished_blackstone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)));
+    public static final Supplier<Block> DEEPSLATE_TILE_CHIMNEY = registerBlock("deepslate_tile_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)));
+    public static final Supplier<Block> DEEPSLATE_BRICK_CHIMNEY = registerBlock("deepslate_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)));
+    public static final Supplier<Block> NETHER_BRICK_CHIMNEY = registerBlock("nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)));
+    public static final Supplier<Block> RED_NETHER_BRICK_CHIMNEY = registerBlock("red_nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)));
     public static final Supplier<Block> BRICK_CHIMNEY = registerBlock("brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.BRICKS)));
+    public static final Supplier<Block> MUD_BRICK_CHIMNEY = registerBlock("mud_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
     public static final Supplier<Block> STONE_BRICK_CHIMNEY = registerBlock("stone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
     public static final Supplier<Block> COBBLESTONE_BRICK_CHIMNEY = registerBlock("cobblestone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
-    public static final Supplier<Block> NETHER_BRICK_CHIMNEY = registerBlock("nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)));
-    public static final Supplier<Block> DEEPSLATE_BRICK_CHIMNEY = registerBlock("deepslate_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)));
-    public static final Supplier<Block> DEEPSLATE_TILE_CHIMNEY = registerBlock("deepslate_tile_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)));
-    public static final Supplier<Block> POLISHED_BLACKSTONE_BRICK_CHIMNEY = registerBlock("polished_blackstone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)));
-    public static final Supplier<Block> MUD_BRICK_CHIMNEY = registerBlock("mud_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
-    public static final Supplier<Block> RED_NETHER_BRICK_CHIMNEY = registerBlock("red_nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)));
 
     // Wooden Blocks
     // public static final Supplier<Block> OAK_MOSAIC = registerBlock("oak_mosaic", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
@@ -41,6 +66,7 @@ public class ModBlocks {
     public static final Supplier<Block> JUNGLE_TRIM = registerBlock("jungle_trim", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_PLANKS)));
     public static final Supplier<Block> ACACIA_TRIM = registerBlock("acacia_trim", () -> new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)));
     public static final Supplier<Block> DARK_OAK_TRIM = registerBlock("dark_oak_trim", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Supplier<Block> MANGROVE_TRIM = registerBlock("mangrove_trim", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_PLANKS)));
     public static final Supplier<Block> CRIMSON_TRIM = registerBlock("crimson_trim", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
     public static final Supplier<Block> WARPED_TRIM = registerBlock("warped_trim", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
 

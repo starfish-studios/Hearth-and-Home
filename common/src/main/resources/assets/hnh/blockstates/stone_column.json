@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "type=none": {
+            "model": "hnh:block/column/stone_column_none"
+        },
+        "type=top": {
+            "model": "hnh:block/column/stone_column_top"
+        },
+        "type=middle": {
+            "model": "hnh:block/column/stone_column_middle"
+        },
+        "type=bottom": {
+            "model": "hnh:block/column/stone_column_bottom"
+        }
+    }
+}

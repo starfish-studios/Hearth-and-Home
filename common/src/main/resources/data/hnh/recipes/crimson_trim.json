@@ -1,12 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "trim",
     "pattern": [
-        "OOO",
-        "OOO"
+        "O",
+        "L",
+        "O"
     ],
     "key": {
         "O": {
             "item": "minecraft:crimson_planks"
+        },
+        "L": {
+            "item": "minecraft:stripped_crimson_log"
         }
     },
     "result": {

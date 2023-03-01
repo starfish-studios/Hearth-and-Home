@@ -2,7 +2,7 @@ package com.crispytwig.hearth_and_home.block.properties;
 
 import net.minecraft.util.StringRepresentable;
 
-public enum ShutterType implements StringRepresentable {
+public enum ColumnType implements StringRepresentable {
     TOP("top"),
     MIDDLE("middle"),
     BOTTOM("bottom"),
@@ -10,7 +10,7 @@ public enum ShutterType implements StringRepresentable {
 
     private final String name;
 
-    private ShutterType(String type) {
+    private ColumnType(String type) {
         this.name = type;
     }
 

@@ -13,7 +13,7 @@ public class ModBlockStateProperties {
     public static final EnumProperty<HorizontalConnectionType> HORIZONTAL_CONNECTION_TYPE_2 = EnumProperty.create("type_2", HorizontalConnectionType.class);
     public static final EnumProperty<VerticalConnectionType> VERTICAL_CONNECTION_TYPE = EnumProperty.create("type", VerticalConnectionType.class);
     public static final EnumProperty<DyeColor> COLOR = EnumProperty.create("color", DyeColor.class);
-    public static final EnumProperty<ShutterType> SHUTTER_TYPE = EnumProperty.create("type", ShutterType.class);
+    public static final EnumProperty<ColumnType> COLUMN_TYPE = EnumProperty.create("type", ColumnType.class);
     public static final EnumProperty<CurtainType> CURTAIN_TYPE = EnumProperty.create("type", CurtainType.class);
     public static final EnumProperty<SofaType> SOFA_TYPE = EnumProperty.create("type", SofaType.class);
     public static final DirectionProperty FACING_EXCEPT_DOWN = DirectionProperty.create("facing", (direction) -> direction != Direction.DOWN);
