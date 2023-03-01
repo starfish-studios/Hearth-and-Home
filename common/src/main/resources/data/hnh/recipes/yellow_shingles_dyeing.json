@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "group": "shingles_dyeing",
     "ingredients": [
         {
             "item": "hnh:shingles"

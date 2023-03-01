@@ -1,16 +1,17 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "tiles_from_slabs",
     "pattern": [
         "W",
         "W"
     ],
     "key": {
         "W": {
-            "item": "hnh:magenta_tile_slab"
+            "item": "hnh:gray_tile_slab"
         }
     },
     "result": {
-        "item": "hnh:magenta_tiles",
+        "item": "hnh:gray_tiles",
         "count": 1
     }
 }

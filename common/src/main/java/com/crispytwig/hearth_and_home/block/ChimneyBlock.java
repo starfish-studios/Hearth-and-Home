@@ -1,5 +1,6 @@
 package com.crispytwig.hearth_and_home.block;
 
+import com.crispytwig.hearth_and_home.registry.ModSoundEvents;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.SimpleParticleType;
@@ -19,11 +20,13 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.pathfinder.PathComputationType;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
 public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
-    protected static final VoxelShape SHAPE = Block.box(0.0, 0.0, 0.0, 16.0, 7.0, 16.0);
+    protected static final VoxelShape NECK = Block.box(2.0, 0.0, 2.0, 14.0, 8.0, 14.0);
+    protected static final VoxelShape LIP = Block.box(0.0, 8.0, 0.0, 16.0, 16.0, 16.0);
     public static final BooleanProperty LIT;
     public static final BooleanProperty WATERLOGGED;
     private static final VoxelShape VIRTUAL_FENCE_POST;
@@ -45,7 +48,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return SHAPE;
+        return Shapes.or(NECK, LIP);
     }
 
     public RenderShape getRenderShape(BlockState state) {
@@ -55,7 +58,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
         if ((Boolean)state.getValue(LIT)) {
             if (random.nextInt(10) == 0) {
-                level.playLocalSound((double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, SoundEvents.CAMPFIRE_CRACKLE, SoundSource.BLOCKS, 0.5F + random.nextFloat(), random.nextFloat() * 0.7F + 0.6F, false);
+                level.playLocalSound((double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, ModSoundEvents.CHIMNEY_CRACKLE.get(), SoundSource.BLOCKS, 0.5F + random.nextFloat(), random.nextFloat() * 0.7F + 0.6F, false);
             }
 
             if (this.spawnParticles && random.nextInt(5) == 0) {
