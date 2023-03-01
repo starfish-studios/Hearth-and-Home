@@ -21,6 +21,8 @@ public class ModBlocks {
 
     // Columns
     public static final Supplier<Block> STONE_COLUMN = registerBlock("stone_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final Supplier<Block> CALCITE_COLUMN = registerBlock("calcite_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
+    public static final Supplier<Block> QUARTZ_COLUMN = registerBlock("quartz_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK)));
 
     // Calcite Blocks
     // public static final Supplier<Block> CALCITE_STAIRS = registerBlock("calcite_stairs", () -> new StairBlock(Blocks.CALCITE.defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.CALCITE)));
