@@ -1,14 +1,14 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 license = "MIT"
-issueTrackerURL = "https://github.com/starfish-studios/DelightfulDecor/issues"
+issueTrackerURL = "https://github.com/crispytwig/Hearth-and-Home/issues"
 
 [[mods]]
-modId = "mod_template"
+modId = "hnh"
 version = "${version}"
-displayName = "mod_template"
+displayName = "Hearth & Home"
 #updateJSONURL="http://myurl.me/"
-displayURL = "https://www.curseforge.com/minecraft/mc-mods/delightful_decor"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/hearth-and-home"
 logoFile = "icon.png"
 #credits="Thanks for this example mod goes to Java"
 authors = "crispytwig"
@@ -16,14 +16,14 @@ description = '''
 Decorative blocks out of scope to Another Furniture
 '''
 
-[[dependencies.mod_template]]
+[[dependencies.hnh]]
 modId = "forge"
 mandatory = true
 versionRange = "[43.1.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.mod_template]]
+[[dependencies.hnh]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,1.20)"

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "minecraft:orange_dye"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        }
+    ],
+    "result": {
+        "item": "hnh:orange_tiles",
+        "count": 8
+    }
+}

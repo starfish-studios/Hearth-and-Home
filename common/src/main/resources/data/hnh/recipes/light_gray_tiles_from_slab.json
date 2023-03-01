@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W",
+        "W"
+    ],
+    "key": {
+        "W": {
+            "item": "hnh:light_gray_tile_slab"
+        }
+    },
+    "result": {
+        "item": "hnh:light_gray_tiles",
+        "count": 1
+    }
+}

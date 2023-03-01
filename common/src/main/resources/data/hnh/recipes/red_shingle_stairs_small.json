@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W ",
+        "WW"
+    ],
+    "key": {
+        "W": {
+            "item": "hnh:red_shingles"
+        }
+    },
+    "result": {
+        "item": "hnh:red_shingle_stairs",
+        "count": 4
+    }
+}

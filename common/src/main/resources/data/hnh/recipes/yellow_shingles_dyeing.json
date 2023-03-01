@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        }
+    ],
+    "result": {
+        "item": "hnh:yellow_shingles",
+        "count": 8
+    }
+}

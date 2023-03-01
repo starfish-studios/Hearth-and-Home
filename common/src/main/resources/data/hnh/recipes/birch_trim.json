@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OOO"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:birch_planks"
+        }
+    },
+    "result": {
+        "item": "hnh:birch_trim",
+        "count": 6
+    }
+}

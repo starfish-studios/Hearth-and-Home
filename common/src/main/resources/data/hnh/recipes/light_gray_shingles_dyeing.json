@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "minecraft:light_gray_dye"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        }
+    ],
+    "result": {
+        "item": "hnh:light_gray_shingles",
+        "count": 8
+    }
+}

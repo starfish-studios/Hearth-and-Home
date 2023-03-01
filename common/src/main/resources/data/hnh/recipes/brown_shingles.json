@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TT",
+        "TT"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:brown_terracotta"
+        }
+    },
+    "result": {
+        "item": "hnh:brown_shingles",
+        "count": 4
+    }
+}

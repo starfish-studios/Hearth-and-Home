@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "hnh:red_tiles"
+        }
+    },
+    "result": {
+        "item": "hnh:red_tile_slab",
+        "count": 6
+    }
+}

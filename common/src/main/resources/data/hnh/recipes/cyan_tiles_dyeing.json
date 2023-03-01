@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        },
+        {
+            "item": "hnh:tiles"
+        }
+    ],
+    "result": {
+        "item": "hnh:cyan_tiles",
+        "count": 8
+    }
+}

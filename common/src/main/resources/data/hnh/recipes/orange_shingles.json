@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TT",
+        "TT"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:orange_terracotta"
+        }
+    },
+    "result": {
+        "item": "hnh:orange_shingles",
+        "count": 4
+    }
+}

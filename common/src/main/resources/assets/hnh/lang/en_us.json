@@ -2,8 +2,26 @@
   "itemGroup.hnh.tab": "Hearth & Home",
   "itemGroup.hnh": "Hearth & Home",
 
+  "hnh.subtitles.block.chimney.crackle": "Chimney crackles",
+
   "block.hnh.oak_trim": "Oak Trim",
-  "block.hnh.oak_mosaic": "Oak Mosaic",
+  "block.hnh.spruce_trim": "Spruce Trim",
+  "block.hnh.birch_trim": "Birch Trim",
+  "block.hnh.jungle_trim": "Jungle Trim",
+  "block.hnh.acacia_trim": "Acacia Trim",
+  "block.hnh.dark_oak_trim": "Dark Oak Trim",
+  "block.hnh.crimson_trim": "Crimson Trim",
+  "block.hnh.warped_trim": "Warped Trim",
+
+  "block.hnh.brick_chimney": "Brick Chimney",
+  "block.hnh.stone_brick_chimney": "Stone Brick Chimney",
+  "block.hnh.cobblestone_brick_chimney": "Cobblestone Brick Chimney",
+  "block.hnh.nether_brick_chimney": "Nether Brick Chimney",
+  "block.hnh.deepslate_brick_chimney": "Deepslate Brick Chimney",
+  "block.hnh.deepslate_tile_chimney": "Deepslate Tile Chimney",
+  "block.hnh.polished_blackstone_brick_chimney": "Polished Blackstone Brick Chimney",
+  "block.hnh.mud_brick_chimney": "Mud Brick Chimney",
+  "block.hnh.red_nether_brick_chimney": "Red Nether Brick Chimney",
 
   "block.hnh.sanded_oak_wood": "Sanded Oak Wood",
   "block.hnh.sanded_spruce_wood": "Sanded Spruce Wood",

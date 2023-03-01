@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "minecraft:lime_dye"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        },
+        {
+            "item": "hnh:shingles"
+        }
+    ],
+    "result": {
+        "item": "hnh:lime_shingles",
+        "count": 8
+    }
+}

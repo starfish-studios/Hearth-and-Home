@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OOO"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:crimson_planks"
+        }
+    },
+    "result": {
+        "item": "hnh:crimson_trim",
+        "count": 6
+    }
+}

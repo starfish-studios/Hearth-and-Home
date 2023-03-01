@@ -1,26 +1,48 @@
 package com.crispytwig.hearth_and_home.registry;
 
 import com.crispytwig.hearth_and_home.Mod;
+import com.crispytwig.hearth_and_home.block.ChimneyBlock;
 import com.crispytwig.hearth_and_home.block.RotatingSlabBlock;
 import com.crispytwig.hearth_and_home.block.StairBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
 
+    // Chimneys
+    public static final Supplier<Block> BRICK_CHIMNEY = registerBlock("brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.BRICKS)));
+    public static final Supplier<Block> STONE_BRICK_CHIMNEY = registerBlock("stone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
+    public static final Supplier<Block> COBBLESTONE_BRICK_CHIMNEY = registerBlock("cobblestone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
+    public static final Supplier<Block> NETHER_BRICK_CHIMNEY = registerBlock("nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.NETHER_BRICKS)));
+    public static final Supplier<Block> DEEPSLATE_BRICK_CHIMNEY = registerBlock("deepslate_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_BRICKS)));
+    public static final Supplier<Block> DEEPSLATE_TILE_CHIMNEY = registerBlock("deepslate_tile_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_TILES)));
+    public static final Supplier<Block> POLISHED_BLACKSTONE_BRICK_CHIMNEY = registerBlock("polished_blackstone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.POLISHED_BLACKSTONE_BRICKS)));
+    public static final Supplier<Block> MUD_BRICK_CHIMNEY = registerBlock("mud_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.MUD_BRICKS)));
+    public static final Supplier<Block> RED_NETHER_BRICK_CHIMNEY = registerBlock("red_nether_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.RED_NETHER_BRICKS)));
+
     // Wooden Blocks
-    public static final Supplier<Block> OAK_TRIM = registerBlock("oak_trim", () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS)));
-    public static final Supplier<Block> OAK_MOSAIC = registerBlock("oak_mosaic", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
+    // public static final Supplier<Block> OAK_MOSAIC = registerBlock("oak_mosaic", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
     public static final Supplier<Block> COBBLESTONE_BRICKS = registerBlock("cobblestone_bricks", () -> new Block(Block.Properties.copy(Blocks.COBBLESTONE)));
-    public static final Supplier<Block> COBBLESTONE_BRICK_SLAB = registerBlock("cobblestone_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.COBBLESTONE)));
     public static final Supplier<Block> COBBLESTONE_BRICK_STAIRS = registerBlock("cobblestone_brick_stairs", () -> new StairBlock(COBBLESTONE_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.COBBLESTONE)));
+    public static final Supplier<Block> COBBLESTONE_BRICK_SLAB = registerBlock("cobblestone_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.COBBLESTONE)));
     public static final Supplier<Block> COBBLESTONE_BRICK_WALL = registerBlock("cobblestone_brick_wall", () -> new WallBlock(Block.Properties.copy(Blocks.COBBLESTONE)));
     public static final Supplier<Block> THATCH = registerBlock("thatch", () -> new RotatedPillarBlock(Block.Properties.copy(Blocks.HAY_BLOCK)));
     public static final Supplier<Block> THATCH_SLAB = registerBlock("thatch_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.HAY_BLOCK)));
     public static final Supplier<Block> THATCH_STAIRS = registerBlock("thatch_stairs", () -> new StairBlock(THATCH.get().defaultBlockState(), Block.Properties.copy(Blocks.HAY_BLOCK)));
+
+    // Trims
+    public static final Supplier<Block> OAK_TRIM = registerBlock("oak_trim", () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final Supplier<Block> SPRUCE_TRIM = registerBlock("spruce_trim", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Supplier<Block> BIRCH_TRIM = registerBlock("birch_trim", () -> new Block(Block.Properties.copy(Blocks.BIRCH_PLANKS)));
+    public static final Supplier<Block> JUNGLE_TRIM = registerBlock("jungle_trim", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final Supplier<Block> ACACIA_TRIM = registerBlock("acacia_trim", () -> new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final Supplier<Block> DARK_OAK_TRIM = registerBlock("dark_oak_trim", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Supplier<Block> CRIMSON_TRIM = registerBlock("crimson_trim", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final Supplier<Block> WARPED_TRIM = registerBlock("warped_trim", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
 
     // Sanded Wood
     public static final Supplier<Block> SANDED_OAK_WOOD = registerBlock("sanded_oak_wood", () -> new Block(Block.Properties.copy(Blocks.OAK_WOOD)));
