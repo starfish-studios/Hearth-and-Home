@@ -8,13 +8,17 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    // Torches
-    // public static final Supplier<Block> IRON_TORCH = registerBlock("iron_torch", () -> new TorchBlock(BlockBehaviour.Properties.copy(Blocks.TORCH).noOcclusion(), ParticleTypes.FLAME));
+    // public static final Supplier<Block> LARGE_POT = registerBlock("large_pot", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_BROWN).strength(1.5F, 6.0F).sound(SoundType.STONE)));
+
+    public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).strength(1.0F).sound(SoundType.BAMBOO)));
+    public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).randomTicks().instabreak().strength(1.0F).sound(SoundType.BAMBOO).noOcclusion()));
 
     public static final Supplier<Block> BARRED_GLASS = registerBlock("barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
     public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)));
@@ -51,8 +55,6 @@ public class ModBlocks {
     public static final Supplier<Block> STONE_BRICK_CHIMNEY = registerBlock("stone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
     public static final Supplier<Block> COBBLESTONE_BRICK_CHIMNEY = registerBlock("cobblestone_brick_chimney", () -> new ChimneyBlock(true, 1, BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
 
-    // Wooden Blocks
-    // public static final Supplier<Block> OAK_MOSAIC = registerBlock("oak_mosaic", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
     public static final Supplier<Block> COBBLESTONE_BRICKS = registerBlock("cobblestone_bricks", () -> new Block(Block.Properties.copy(Blocks.COBBLESTONE)));
     public static final Supplier<Block> COBBLESTONE_BRICK_STAIRS = registerBlock("cobblestone_brick_stairs", () -> new StairBlock(COBBLESTONE_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.COBBLESTONE)));
     public static final Supplier<Block> COBBLESTONE_BRICK_SLAB = registerBlock("cobblestone_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.COBBLESTONE)));
@@ -60,6 +62,17 @@ public class ModBlocks {
     public static final Supplier<Block> THATCH = registerBlock("thatch", () -> new RotatedPillarBlock(Block.Properties.copy(Blocks.HAY_BLOCK)));
     public static final Supplier<Block> THATCH_SLAB = registerBlock("thatch_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.HAY_BLOCK)));
     public static final Supplier<Block> THATCH_STAIRS = registerBlock("thatch_stairs", () -> new StairBlock(THATCH.get().defaultBlockState(), Block.Properties.copy(Blocks.HAY_BLOCK)));
+
+    // Parquets
+    public static final Supplier<Block> OAK_PARQUET = registerBlock("oak_parquet", () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final Supplier<Block> SPRUCE_PARQUET = registerBlock("spruce_parquet", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Supplier<Block> BIRCH_PARQUET = registerBlock("birch_parquet", () -> new Block(Block.Properties.copy(Blocks.BIRCH_PLANKS)));
+    public static final Supplier<Block> JUNGLE_PARQUET = registerBlock("jungle_parquet", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final Supplier<Block> ACACIA_PARQUET = registerBlock("acacia_parquet", () -> new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final Supplier<Block> DARK_OAK_PARQUET = registerBlock("dark_oak_parquet", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Supplier<Block> CRIMSON_PARQUET = registerBlock("crimson_parquet", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final Supplier<Block> WARPED_PARQUET = registerBlock("warped_parquet", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
+
 
     // Trims
     public static final Supplier<Block> OAK_TRIM = registerBlock("oak_trim", () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS)));
@@ -82,6 +95,8 @@ public class ModBlocks {
     public static final Supplier<Block> SANDED_CRIMSON_WOOD = registerBlock("sanded_crimson_wood", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_HYPHAE)));
     public static final Supplier<Block> SANDED_WARPED_WOOD = registerBlock("sanded_warped_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
 
+
+    
     // Terracotta Shingles
     public static final Supplier<Block> SHINGLES = registerBlock("shingles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
     public static final Supplier<Block> SHINGLE_STAIRS = registerBlock("shingle_stairs", () -> new StairBlock(SHINGLES.get().defaultBlockState(), Block.Properties.copy(Blocks.TERRACOTTA)));
@@ -170,6 +185,24 @@ public class ModBlocks {
     public static final Supplier<Block> RED_TILE_SLAB = registerBlock("red_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
     public static final Supplier<Block> BLACK_TILES = registerBlock("black_tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
     public static final Supplier<Block> BLACK_TILE_SLAB = registerBlock("black_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+
+    // Paper Lanterns
+    public static final Supplier<Block> PAPER_LANTERN = registerBlock("paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> ORANGE_PAPER_LANTERN = registerBlock("orange_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> MAGENTA_PAPER_LANTERN = registerBlock("magenta_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> LIGHT_BLUE_PAPER_LANTERN = registerBlock("light_blue_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> YELLOW_PAPER_LANTERN = registerBlock("yellow_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> LIME_PAPER_LANTERN = registerBlock("lime_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> PINK_PAPER_LANTERN = registerBlock("pink_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> GRAY_PAPER_LANTERN = registerBlock("gray_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> LIGHT_GRAY_PAPER_LANTERN = registerBlock("light_gray_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> CYAN_PAPER_LANTERN = registerBlock("cyan_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> PURPLE_PAPER_LANTERN = registerBlock("purple_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> BLUE_PAPER_LANTERN = registerBlock("blue_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> BROWN_PAPER_LANTERN = registerBlock("brown_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> GREEN_PAPER_LANTERN = registerBlock("green_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> RED_PAPER_LANTERN = registerBlock("red_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> BLACK_PAPER_LANTERN = registerBlock("black_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
 
 
 

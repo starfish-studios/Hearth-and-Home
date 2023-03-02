@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:parquet",
+    "pattern": [
+        "O",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:birch_slab"
+        }
+    },
+    "result": {
+        "item": "hnh:birch_parquet",
+        "count": 1
+    }
+}

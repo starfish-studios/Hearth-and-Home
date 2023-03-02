@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:parquet",
+    "pattern": [
+        "O",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:spruce_slab"
+        }
+    },
+    "result": {
+        "item": "hnh:spruce_parquet",
+        "count": 1
+    }
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "tile_slab",
+  "group": "hnh:tile_slab",
   "pattern": [
     "WWW"
   ],

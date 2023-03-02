@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:thatch_stairs",
+    "pattern": [
+        "T ",
+        "TT"
+    ],
+    "key": {
+        "T": {
+            "item": "hnh:thatch"
+        }
+    },
+    "result": {
+        "item": "hnh:thatch_stairs",
+        "count": 4
+    }
+}

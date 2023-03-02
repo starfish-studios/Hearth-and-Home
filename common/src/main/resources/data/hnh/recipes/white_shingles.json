@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "shingles",
+  "group": "hnh:shingles",
   "pattern": [
     "TT",
     "TT"

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "shingle_stairs",
+  "group": "hnh:shingle_stairs",
   "pattern": [
     "W  ",
     "WW ",

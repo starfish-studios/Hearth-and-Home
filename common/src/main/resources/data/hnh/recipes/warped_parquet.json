@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:parquet",
+    "pattern": [
+        "O",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:warped_slab"
+        }
+    },
+    "result": {
+        "item": "hnh:warped_parquet",
+        "count": 1
+    }
+}
