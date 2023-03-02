@@ -76,13 +76,12 @@ public class ModForge {
 
             String substring = itemName.substring(color.toString().length() + 1);
             String probableIdUncolored = itemNamespace + ":" + substring;
+            String probableIdWhite = itemNamespace + ":white_" + substring;
 
             if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdUncolored))) {
                 result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdUncolored)).get().value();
-            }
-            probableIdUncolored = itemNamespace + ":white_" + substring;
-            if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdUncolored))) {
-                result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdUncolored)).get().value();
+            } else if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdWhite))) {
+                result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdWhite)).get().value();
             }
 
             if (result == Items.AIR || result == itemStack.getItem()) return;
