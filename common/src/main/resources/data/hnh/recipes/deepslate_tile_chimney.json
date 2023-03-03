@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "B"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:campfire"
+        },
+        "B": {
+            "item": "minecraft:deepslate_tiles"
+        }
+    },
+    "result": {
+        "item": "hnh:deepslate_tile_chimney",
+        "count": 1
+    }
+}

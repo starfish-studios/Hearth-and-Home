@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "B"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:campfire"
+        },
+        "B": {
+            "item": "minecraft:polished_blackstone_bricks"
+        }
+    },
+    "result": {
+        "item": "hnh:polished_blackstone_brick_chimney",
+        "count": 1
+    }
+}

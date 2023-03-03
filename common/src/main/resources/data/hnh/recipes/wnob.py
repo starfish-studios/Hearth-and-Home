@@ -67,7 +67,6 @@ bricks = [
     "deepslate_brick",
     "nether_brick",
     "red_nether_brick",
-    "brick",
     "mud_brick",
     "stone_brick",
     "cobblestone_brick"
@@ -123,8 +122,8 @@ for file in files_to_process:
                     f.write(json.dumps(new_data, indent=4) + "\n")
         elif "brick" in file:
             for brick in bricks:
-                new_data = dict_replace_value(data, "brick", bricks)
-                with open(file.replace("brick", bricks), "w+") as f:
+                new_data = dict_replace_value(data, "brick", brick)
+                with open(file.replace("brick", brick), "w+") as f:
                     f.write(json.dumps(new_data, indent=4) + "\n")
 
 
