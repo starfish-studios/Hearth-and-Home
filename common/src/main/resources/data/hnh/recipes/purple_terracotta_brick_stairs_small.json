@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:terracotta_brick_stairs",
+    "pattern": [
+        "T ",
+        "TT"
+    ],
+    "key": {
+        "T": {
+            "item": "hnh:purple_terracotta_bricks"
+        }
+    },
+    "result": {
+        "item": "hnh:purple_terracotta_brick_stairs",
+        "count": 4
+    }
+}

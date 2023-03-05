@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hnh:terracotta_brick_slab",
+  "pattern": [
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "hnh:terracotta_bricks"
+    }
+  },
+  "result": {
+    "item": "hnh:terracotta_brick_slab",
+    "count": 6
+  }
+}

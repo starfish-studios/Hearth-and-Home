@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_glass_pane_noside",
+    "textures": {
+        "pane": "hnh:block/pink_stained_barred_glass"
+    }
+}

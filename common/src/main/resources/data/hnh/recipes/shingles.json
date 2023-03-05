@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "TT",
-    "TT"
+    "T",
+    "T"
   ],
   "key": {
     "T": {
@@ -11,6 +11,6 @@
   },
   "result": {
     "item": "hnh:shingles",
-    "count": 4
+    "count": 2
   }
 }

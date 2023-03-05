@@ -20,9 +20,6 @@ public class ModBlocks {
     public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).strength(1.0F).sound(SoundType.BAMBOO)));
     public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).randomTicks().instabreak().strength(1.0F).sound(SoundType.BAMBOO).noOcclusion()));
 
-    public static final Supplier<Block> BARRED_GLASS = registerBlock("barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
-    public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GLASS_PANE)));
-
     // Columns
     public static final Supplier<Block> STONE_COLUMN = registerBlock("stone_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
     public static final Supplier<Block> CALCITE_COLUMN = registerBlock("calcite_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.CALCITE)));
@@ -150,6 +147,63 @@ public class ModBlocks {
     public static final Supplier<Block> BLACK_SHINGLE_STAIRS = registerBlock("black_shingle_stairs", () -> new StairBlock(BLACK_SHINGLES.get().defaultBlockState(), Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
     public static final Supplier<Block> BLACK_SHINGLE_SLAB = registerBlock("black_shingle_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
 
+
+    // Terracotta Bricks
+    // Keep the following lines for terracotta bricks but clone them and comment out stairs and slabs.
+    public static final Supplier<Block> TERRACOTTA_BRICKS = registerBlock("terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> TERRACOTTA_BRICK_STAIRS = registerBlock("terracotta_brick_stairs", () -> new StairBlock(TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> TERRACOTTA_BRICK_SLAB = registerBlock("terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TERRACOTTA_BRICKS = registerBlock("white_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TERRACOTTA_BRICK_STAIRS = registerBlock("white_terracotta_brick_stairs", () -> new StairBlock(WHITE_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TERRACOTTA_BRICK_SLAB = registerBlock("white_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TERRACOTTA_BRICKS = registerBlock("orange_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TERRACOTTA_BRICK_STAIRS = registerBlock("orange_terracotta_brick_stairs", () -> new StairBlock(ORANGE_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TERRACOTTA_BRICK_SLAB = registerBlock("orange_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TERRACOTTA_BRICKS = registerBlock("magenta_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TERRACOTTA_BRICK_STAIRS = registerBlock("magenta_terracotta_brick_stairs", () -> new StairBlock(MAGENTA_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TERRACOTTA_BRICK_SLAB = registerBlock("magenta_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TERRACOTTA_BRICKS = registerBlock("light_blue_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TERRACOTTA_BRICK_STAIRS = registerBlock("light_blue_terracotta_brick_stairs", () -> new StairBlock(LIGHT_BLUE_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TERRACOTTA_BRICK_SLAB = registerBlock("light_blue_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TERRACOTTA_BRICKS = registerBlock("yellow_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TERRACOTTA_BRICK_STAIRS = registerBlock("yellow_terracotta_brick_stairs", () -> new StairBlock(YELLOW_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TERRACOTTA_BRICK_SLAB = registerBlock("yellow_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TERRACOTTA_BRICKS = registerBlock("lime_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TERRACOTTA_BRICK_STAIRS = registerBlock("lime_terracotta_brick_stairs", () -> new StairBlock(LIME_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TERRACOTTA_BRICK_SLAB = registerBlock("lime_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TERRACOTTA_BRICKS = registerBlock("pink_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TERRACOTTA_BRICK_STAIRS = registerBlock("pink_terracotta_brick_stairs", () -> new StairBlock(PINK_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TERRACOTTA_BRICK_SLAB = registerBlock("pink_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TERRACOTTA_BRICKS = registerBlock("gray_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TERRACOTTA_BRICK_STAIRS = registerBlock("gray_terracotta_brick_stairs", () -> new StairBlock(GRAY_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TERRACOTTA_BRICK_SLAB = registerBlock("gray_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TERRACOTTA_BRICKS = registerBlock("light_gray_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TERRACOTTA_BRICK_STAIRS = registerBlock("light_gray_terracotta_brick_stairs", () -> new StairBlock(LIGHT_GRAY_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TERRACOTTA_BRICK_SLAB = registerBlock("light_gray_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TERRACOTTA_BRICKS = registerBlock("cyan_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TERRACOTTA_BRICK_STAIRS = registerBlock("cyan_terracotta_brick_stairs", () -> new StairBlock(CYAN_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TERRACOTTA_BRICK_SLAB = registerBlock("cyan_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TERRACOTTA_BRICKS = registerBlock("purple_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TERRACOTTA_BRICK_STAIRS = registerBlock("purple_terracotta_brick_stairs", () -> new StairBlock(PURPLE_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TERRACOTTA_BRICK_SLAB = registerBlock("purple_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TERRACOTTA_BRICKS = registerBlock("blue_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TERRACOTTA_BRICK_STAIRS = registerBlock("blue_terracotta_brick_stairs", () -> new StairBlock(BLUE_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TERRACOTTA_BRICK_SLAB = registerBlock("blue_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TERRACOTTA_BRICKS = registerBlock("brown_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TERRACOTTA_BRICK_STAIRS = registerBlock("brown_terracotta_brick_stairs", () -> new StairBlock(BROWN_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TERRACOTTA_BRICK_SLAB = registerBlock("brown_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TERRACOTTA_BRICKS = registerBlock("green_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TERRACOTTA_BRICK_STAIRS = registerBlock("green_terracotta_brick_stairs", () -> new StairBlock(GREEN_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TERRACOTTA_BRICK_SLAB = registerBlock("green_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> RED_TERRACOTTA_BRICKS = registerBlock("red_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> RED_TERRACOTTA_BRICK_STAIRS = registerBlock("red_terracotta_brick_stairs", () -> new StairBlock(RED_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> RED_TERRACOTTA_BRICK_SLAB = registerBlock("red_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TERRACOTTA_BRICKS = registerBlock("black_terracotta_bricks", () -> new Block(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TERRACOTTA_BRICK_STAIRS = registerBlock("black_terracotta_brick_stairs", () -> new StairBlock(BLACK_TERRACOTTA_BRICKS.get().defaultBlockState(), Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TERRACOTTA_BRICK_SLAB = registerBlock("black_terracotta_brick_slab", () -> new SlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+
+
+
     // Tiles
     public static final Supplier<Block> TILES = registerBlock("tiles", () -> new GlazedTerracottaBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
     public static final Supplier<Block> TILE_SLAB = registerBlock("tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
@@ -204,6 +258,41 @@ public class ModBlocks {
     public static final Supplier<Block> RED_PAPER_LANTERN = registerBlock("red_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
     public static final Supplier<Block> BLACK_PAPER_LANTERN = registerBlock("black_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
 
+    public static final Supplier<Block> BARRED_GLASS = registerBlock("barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+    public static final Supplier<Block> WHITE_STAINED_BARRED_GLASS = registerBlock("white_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS)));
+    public static final Supplier<Block> ORANGE_STAINED_BARRED_GLASS = registerBlock("orange_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS)));
+    public static final Supplier<Block> MAGENTA_STAINED_BARRED_GLASS = registerBlock("magenta_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS)));
+    public static final Supplier<Block> LIGHT_BLUE_STAINED_BARRED_GLASS = registerBlock("light_blue_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+    public static final Supplier<Block> YELLOW_STAINED_BARRED_GLASS = registerBlock("yellow_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS)));
+    public static final Supplier<Block> LIME_STAINED_BARRED_GLASS = registerBlock("lime_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS)));
+    public static final Supplier<Block> PINK_STAINED_BARRED_GLASS = registerBlock("pink_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS)));
+    public static final Supplier<Block> GRAY_STAINED_BARRED_GLASS = registerBlock("gray_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS)));
+    public static final Supplier<Block> LIGHT_GRAY_STAINED_BARRED_GLASS = registerBlock("light_gray_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS)));
+    public static final Supplier<Block> CYAN_STAINED_BARRED_GLASS = registerBlock("cyan_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS)));
+    public static final Supplier<Block> PURPLE_STAINED_BARRED_GLASS = registerBlock("purple_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS)));
+    public static final Supplier<Block> BLUE_STAINED_BARRED_GLASS = registerBlock("blue_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS)));
+    public static final Supplier<Block> BROWN_STAINED_BARRED_GLASS = registerBlock("brown_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS)));
+    public static final Supplier<Block> GREEN_STAINED_BARRED_GLASS = registerBlock("green_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS)));
+    public static final Supplier<Block> RED_STAINED_BARRED_GLASS = registerBlock("red_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS)));
+    public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS = registerBlock("black_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS)));
+
+    public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+    public static final Supplier<Block> WHITE_STAINED_BARRED_GLASS_PANE = registerBlock("white_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> ORANGE_STAINED_BARRED_GLASS_PANE = registerBlock("orange_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> MAGENTA_STAINED_BARRED_GLASS_PANE = registerBlock("magenta_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIGHT_BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("light_blue_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> YELLOW_STAINED_BARRED_GLASS_PANE = registerBlock("yellow_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIME_STAINED_BARRED_GLASS_PANE = registerBlock("lime_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> PINK_STAINED_BARRED_GLASS_PANE = registerBlock("pink_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("gray_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIGHT_GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("light_gray_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> CYAN_STAINED_BARRED_GLASS_PANE = registerBlock("cyan_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> PURPLE_STAINED_BARRED_GLASS_PANE = registerBlock("purple_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("blue_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BROWN_STAINED_BARRED_GLASS_PANE = registerBlock("brown_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> GREEN_STAINED_BARRED_GLASS_PANE = registerBlock("green_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> RED_STAINED_BARRED_GLASS_PANE = registerBlock("red_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS_PANE = registerBlock("black_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS_PANE)));
 
 
 

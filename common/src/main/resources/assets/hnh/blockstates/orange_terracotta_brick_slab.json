@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "hnh:block/terracotta_bricks/orange_terracotta_brick_slab"
+        },
+        "type=double": {
+            "model": "hnh:block/terracotta_bricks/orange_terracotta_bricks"
+        },
+        "type=top": {
+            "model": "hnh:block/terracotta_bricks/orange_terracotta_brick_slab_top"
+        }
+    }
+}

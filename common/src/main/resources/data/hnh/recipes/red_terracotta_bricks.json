@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "hnh:dyed_terracotta_bricks",
+    "ingredients": [
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "minecraft:red_dye"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        },
+        {
+            "item": "hnh:terracotta_bricks"
+        }
+    ],
+    "result": {
+        "item": "hnh:red_terracotta_bricks",
+        "count": 8
+    }
+}

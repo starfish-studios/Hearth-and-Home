@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "hnh:stained_barred_glass",
+    "ingredients": [
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        },
+        {
+            "item": "hnh:barred_glass"
+        }
+    ],
+    "result": {
+        "item": "hnh:yellow_barred_glass",
+        "count": 8
+    }
+}
