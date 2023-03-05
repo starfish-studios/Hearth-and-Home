@@ -1,6 +1,7 @@
 package com.crispytwig.hearth_and_home.forge;
 
 import com.crispytwig.hearth_and_home.Mod;
+import com.crispytwig.hearth_and_home.registry.ModBlocks;
 import com.crispytwig.hearth_and_home.registry.forge.ModRegistryImpl;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -51,7 +52,9 @@ public class ModForge {
         event.enqueueWork(() -> {
             Mod.registerFlammables();
         });
+
     }
+
 
 
     @SubscribeEvent
@@ -66,10 +69,11 @@ public class ModForge {
 
         InteractionHand hand = event.getHand();
         ItemStack itemStack = event.getEntity().getItemInHand(hand);
-        ResourceLocation itemId = Registry.ITEM.getKey(itemStack.getItem());
+        if (itemStack.is(Items.AIR)) return;
+
+        ResourceLocation itemId = ForgeRegistries.ITEMS.getKey(itemStack.getItem());
         String itemNamespace = itemId.getNamespace();
         String itemName = itemId.getPath();
-
         for (DyeColor color : DyeColor.values()) {
             if (!itemName.startsWith(color.toString() + "_")) continue;
             Item result = Items.AIR;
@@ -78,11 +82,9 @@ public class ModForge {
             String probableIdUncolored = itemNamespace + ":" + substring;
             String probableIdWhite = itemNamespace + ":white_" + substring;
 
-            if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdUncolored))) {
-                result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdUncolored)).get().value();
-            } else if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdWhite))) {
-                result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdWhite)).get().value();
-            }
+            if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdUncolored))) result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdUncolored)).get().value();
+            else if (ForgeRegistries.ITEMS.containsKey(new ResourceLocation(probableIdWhite))) result = ForgeRegistries.ITEMS.getDelegate(new ResourceLocation(probableIdWhite)).get().value();
+
 
             if (result == Items.AIR || result == itemStack.getItem()) return;
             itemStack.shrink(1);
