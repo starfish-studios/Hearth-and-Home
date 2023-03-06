@@ -1,0 +1,22 @@
+{
+  "values": [
+    "hnh:shingles",
+    "hnh:white_shingles",
+    "hnh:orange_shingles",
+    "hnh:yellow_shingles",
+    "hnh:green_shingles",
+    "hnh:blue_shingles",
+    "hnh:purple_shingles",
+    "hnh:gray_shingles",
+    "hnh:dark_gray_shingles",
+    "hnh:black_shingles",
+    "hnh:brown_shingles",
+    "hnh:red_shingles",
+    "hnh:pink_shingles",
+    "hnh:light_blue_shingles",
+    "hnh:cyan_shingles",
+    "hnh:lime_shingles",
+    "hnh:light_gray_shingles",
+    "hnh:magenta_shingles"
+  ]
+}

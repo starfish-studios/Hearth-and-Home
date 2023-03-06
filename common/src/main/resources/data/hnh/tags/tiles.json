@@ -1,0 +1,23 @@
+{
+  "values": [
+    "hnh:tiles",
+    "hnh:white_tiles",
+    "hnh:orange_tiles",
+    "hnh:yellow_tiles",
+    "hnh:green_tiles",
+    "hnh:blue_tiles",
+    "hnh:purple_tiles",
+    "hnh:gray_tiles",
+    "hnh:dark_gray_tiles",
+    "hnh:black_tiles",
+    "hnh:brown_tiles",
+    "hnh:red_tiles",
+    "hnh:pink_tiles",
+    "hnh:light_blue_tiles",
+    "hnh:cyan_tiles",
+    "hnh:lime_tiles",
+    "hnh:light_gray_tiles",
+    "hnh:magenta_tiles"
+
+  ]
+}
