@@ -2,9 +2,8 @@ package com.crispytwig.hearth_and_home.registry;
 
 import com.crispytwig.hearth_and_home.Mod;
 import com.crispytwig.hearth_and_home.block.*;
-import com.crispytwig.hearth_and_home.block.StairBlock;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -280,25 +279,23 @@ public class ModBlocks {
     public static final Supplier<Block> RED_STAINED_BARRED_GLASS = registerBlock("red_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS)));
     public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS = registerBlock("black_stained_barred_glass", () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS)));
 
-    public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
-    public static final Supplier<Block> WHITE_STAINED_BARRED_GLASS_PANE = registerBlock("white_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> ORANGE_STAINED_BARRED_GLASS_PANE = registerBlock("orange_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> MAGENTA_STAINED_BARRED_GLASS_PANE = registerBlock("magenta_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> LIGHT_BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("light_blue_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> YELLOW_STAINED_BARRED_GLASS_PANE = registerBlock("yellow_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> LIME_STAINED_BARRED_GLASS_PANE = registerBlock("lime_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> PINK_STAINED_BARRED_GLASS_PANE = registerBlock("pink_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("gray_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> LIGHT_GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("light_gray_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> CYAN_STAINED_BARRED_GLASS_PANE = registerBlock("cyan_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> PURPLE_STAINED_BARRED_GLASS_PANE = registerBlock("purple_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("blue_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> BROWN_STAINED_BARRED_GLASS_PANE = registerBlock("brown_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> GREEN_STAINED_BARRED_GLASS_PANE = registerBlock("green_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> RED_STAINED_BARRED_GLASS_PANE = registerBlock("red_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS_PANE)));
-    public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS_PANE = registerBlock("black_stained_barred_glass_pane", () -> new PaneBlock(BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS_PANE)));
-
-
+    public static final Supplier<Block> BARRED_GLASS_PANE = registerBlock("barred_glass_pane", () -> new IronBarsBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+    public static final Supplier<Block> WHITE_STAINED_BARRED_GLASS_PANE = registerBlock("white_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.WHITE, BlockBehaviour.Properties.copy(Blocks.WHITE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> ORANGE_STAINED_BARRED_GLASS_PANE = registerBlock("orange_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.ORANGE, BlockBehaviour.Properties.copy(Blocks.ORANGE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> MAGENTA_STAINED_BARRED_GLASS_PANE = registerBlock("magenta_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.MAGENTA, BlockBehaviour.Properties.copy(Blocks.MAGENTA_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIGHT_BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("light_blue_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.LIGHT_BLUE, BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> YELLOW_STAINED_BARRED_GLASS_PANE = registerBlock("yellow_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.YELLOW, BlockBehaviour.Properties.copy(Blocks.YELLOW_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIME_STAINED_BARRED_GLASS_PANE = registerBlock("lime_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.LIME, BlockBehaviour.Properties.copy(Blocks.LIME_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> PINK_STAINED_BARRED_GLASS_PANE = registerBlock("pink_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.PINK, BlockBehaviour.Properties.copy(Blocks.PINK_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("gray_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.GRAY, BlockBehaviour.Properties.copy(Blocks.GRAY_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> LIGHT_GRAY_STAINED_BARRED_GLASS_PANE = registerBlock("light_gray_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.LIGHT_GRAY, BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> CYAN_STAINED_BARRED_GLASS_PANE = registerBlock("cyan_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.CYAN, BlockBehaviour.Properties.copy(Blocks.CYAN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> PURPLE_STAINED_BARRED_GLASS_PANE = registerBlock("purple_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.PURPLE, BlockBehaviour.Properties.copy(Blocks.PURPLE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BLUE_STAINED_BARRED_GLASS_PANE = registerBlock("blue_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.BLUE, BlockBehaviour.Properties.copy(Blocks.BLUE_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BROWN_STAINED_BARRED_GLASS_PANE = registerBlock("brown_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.BROWN, BlockBehaviour.Properties.copy(Blocks.BROWN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> GREEN_STAINED_BARRED_GLASS_PANE = registerBlock("green_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.GREEN, BlockBehaviour.Properties.copy(Blocks.GREEN_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> RED_STAINED_BARRED_GLASS_PANE = registerBlock("red_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.RED, BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS_PANE)));
+    public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS_PANE = registerBlock("black_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS_PANE)));
 
     // Registry
 

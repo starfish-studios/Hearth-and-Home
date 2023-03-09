@@ -36,7 +36,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     public ChimneyBlock(boolean bl, int i, Properties properties) {
         super(properties);
         this.spawnParticles = bl;
-        this.registerDefaultState((BlockState)((BlockState)((BlockState)((BlockState)((BlockState)this.stateDefinition.any()).setValue(WATERLOGGED, false)))));
+        this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
     }
 
     @Nullable
@@ -44,7 +44,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
         LevelAccessor levelAccessor = context.getLevel();
         BlockPos blockPos = context.getClickedPos();
         boolean bl = levelAccessor.getFluidState(blockPos).getType() == Fluids.WATER;
-        return (BlockState)((BlockState)((BlockState)((BlockState)this.defaultBlockState().setValue(WATERLOGGED, bl))));
+        return this.defaultBlockState().setValue(WATERLOGGED, bl);
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
@@ -56,20 +56,20 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
-        if ((Boolean)state.getValue(LIT)) {
+        if (state.getValue(LIT)) {
             if (random.nextInt(10) == 0) {
-                level.playLocalSound((double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, ModSoundEvents.CHIMNEY_CRACKLE.get(), SoundSource.BLOCKS, 0.5F + random.nextFloat(), random.nextFloat() * 0.7F + 0.6F, false);
+                level.playLocalSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, ModSoundEvents.CHIMNEY_CRACKLE.get(), SoundSource.BLOCKS, 0.5F + random.nextFloat(), random.nextFloat() * 0.7F + 0.6F, false);
             }
 
             if (this.spawnParticles && random.nextInt(5) == 0) {
                 for(int i = 0; i < random.nextInt(1) + 1; ++i) {
-                    level.addParticle(ParticleTypes.LAVA, (double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, (double)(random.nextFloat() / 2.0F), 5.0E-5, (double)(random.nextFloat() / 2.0F));
+                    level.addParticle(ParticleTypes.LAVA, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, (random.nextFloat() / 2.0F), 5.0E-5, (random.nextFloat() / 2.0F));
                 }
             }
             RandomSource randomSource = level.getRandom();
             SimpleParticleType simpleParticleType = ParticleTypes.CAMPFIRE_COSY_SMOKE;
-            level.addAlwaysVisibleParticle(simpleParticleType, true, (double)pos.getX() + 0.5 + randomSource.nextDouble() / 3.0 * (double)(randomSource.nextBoolean() ? 1 : -1), (double)pos.getY() + randomSource.nextDouble() + randomSource.nextDouble(), (double)pos.getZ() + 0.5 + randomSource.nextDouble() / 3.0 * (double)(randomSource.nextBoolean() ? 1 : -1), 0.0, 0.07, 0.0);
-            level.addParticle(ParticleTypes.SMOKE, (double)pos.getX() + 0.5 + randomSource.nextDouble() / 4.0 * (double)(randomSource.nextBoolean() ? 1 : -1), (double)pos.getY() + 0.4, (double)pos.getZ() + 0.5 + randomSource.nextDouble() / 4.0 * (double)(randomSource.nextBoolean() ? 1 : -1), 0.0, 0.005, 0.0);
+            level.addAlwaysVisibleParticle(simpleParticleType, true, pos.getX() + 0.5 + randomSource.nextDouble() / 3.0 * (randomSource.nextBoolean() ? 1 : -1), pos.getY() + randomSource.nextDouble() + randomSource.nextDouble(), pos.getZ() + 0.5 + randomSource.nextDouble() / 3.0 * (randomSource.nextBoolean() ? 1 : -1), 0.0, 0.07, 0.0);
+            level.addParticle(ParticleTypes.SMOKE, pos.getX() + 0.5 + randomSource.nextDouble() / 4.0 * (randomSource.nextBoolean() ? 1 : -1), pos.getY() + 0.4, pos.getZ() + 0.5 + randomSource.nextDouble() / 4.0 * (randomSource.nextBoolean() ? 1 : -1), 0.0, 0.005, 0.0);
         }
     }
 

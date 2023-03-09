@@ -25,6 +25,7 @@
   "mixins": [
     "hearth_and_home.mixins.json"
   ],
+  "accessWidener": "hearth_and_home.accesswidener",
   "depends": {
     "fabricloader": ">=0.14.9",
     "minecraft": ">=1.19.2"

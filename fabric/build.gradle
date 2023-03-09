@@ -9,6 +9,13 @@ architectury {
     fabric()
 }
 
+var commonAW = project(":common").file("src/main/resources/hearth_and_home.accesswidener")
+var generatedResources = file("src/generated/resources")
+
+loom {
+    accessWidenerPath.set(commonAW)
+}
+
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
@@ -47,6 +54,7 @@ shadowJar {
 }
 
 remapJar {
+	injectAccessWidener = true
     input.set shadowJar.archiveFile
     dependsOn shadowJar
     classifier null
@@ -60,6 +68,7 @@ sourcesJar {
     def commonSources = project(":common").sourcesJar
     dependsOn commonSources
     from commonSources.archiveFile.map { zipTree(it) }
+	exclude "hearth_and_home.accesswidener"
 }
 
 components.java {
