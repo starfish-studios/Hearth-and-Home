@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "hnh:cobblestone_bricks",
+    "hnh:cobblestone_brick_stairs",
+    "hnh:cobblestone_brick_slab",
     "#hnh:shingles",
     "#hnh:columns",
     "#hnh:terracotta_bricks",

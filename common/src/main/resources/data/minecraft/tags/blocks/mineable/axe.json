@@ -5,6 +5,9 @@
     "#hnh:parquets",
     "#hnh:sanded_wood",
     "hnh:woven_bamboo",
-    "hnh:thatch"
+    "hnh:bamboo_mat",
+    "hnh:thatch",
+    "hnh:thatch_stairs",
+    "hnh:thatch_slab"
   ]
 }
