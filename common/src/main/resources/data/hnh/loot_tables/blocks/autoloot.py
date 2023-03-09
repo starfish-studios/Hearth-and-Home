@@ -1,6 +1,6 @@
 import json
 
-
+blacklist_substrings=["barred_glass"]
 
 theitems = """hnh:woven_bamboo
 hnh:bamboo_mat
@@ -240,20 +240,25 @@ hnh:black_stained_barred_glass_pane""".split("\n")
 
 
 for itemname in theitems:
-    thejson = {
-            "type": "minecraft:block",
-            "pools": [
-                    {
-                            "bonus_rolls": 0.0,
-                            "entries": [
-                                    {
-                                            "type": "minecraft:item",
-                                            "name": itemname
-                                    }
-                            ],
-                            "rolls": 1.0
-                    }
-            ]
-    }
-    f = open(itemname.replace("hnh:","") + ".json", "w+")
-    f.write(json.dumps(thejson, indent=4) + "\n")
+    for blacklist_substring in blacklist_substrings:
+        if blacklist_substring in itemname:
+            continue
+        thejson = {
+                "type": "minecraft:block",
+                "pools": [
+                        {
+                                "bonus_rolls": 0.0,
+                                "entries": [
+                                        {
+                                                "type": "minecraft:item",
+                                                "name": itemname
+                                        }
+                                ],
+                                "rolls": 1.0
+                        }
+                ]
+        }
+        f = open(itemname.replace("hnh:","") + ".json", "w+")
+        f.write(json.dumps(thejson, indent=4) + "\n")
+
+f.close()
