@@ -1,7 +1,8 @@
 {
+  "replace": false,
   "values": [
-    "#hnh:trim",
-    "#hnh:parquet",
+    "#hnh:trims",
+    "#hnh:parquets",
     "#hnh:sanded_wood",
     "hnh:woven_bamboo",
     "hnh:thatch"

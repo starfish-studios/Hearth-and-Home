@@ -1,10 +1,12 @@
 {
+  "replace": false,
   "values": [
     "hnh:cobblestone_bricks",
     "#hnh:shingles",
-    "#hnh:column",
+    "#hnh:columns",
     "#hnh:terracotta_bricks",
     "#hnh:tiles",
+    "#hnh:chimneys",
     "hnh:polished_calcite",
     "hnh:chiseled_calcite"
   ]

@@ -8,7 +8,6 @@
     "hnh:blue_tiles",
     "hnh:purple_tiles",
     "hnh:gray_tiles",
-    "hnh:dark_gray_tiles",
     "hnh:black_tiles",
     "hnh:brown_tiles",
     "hnh:red_tiles",
@@ -18,6 +17,5 @@
     "hnh:lime_tiles",
     "hnh:light_gray_tiles",
     "hnh:magenta_tiles"
-
   ]
 }

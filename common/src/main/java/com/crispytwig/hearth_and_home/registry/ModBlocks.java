@@ -69,6 +69,7 @@ public class ModBlocks {
     public static final Supplier<Block> JUNGLE_PARQUET = registerBlock("jungle_parquet", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_PLANKS)));
     public static final Supplier<Block> ACACIA_PARQUET = registerBlock("acacia_parquet", () -> new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)));
     public static final Supplier<Block> DARK_OAK_PARQUET = registerBlock("dark_oak_parquet", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Supplier<Block> MANGROVE_PARQUET = registerBlock("mangrove_parquet", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_PLANKS)));
     public static final Supplier<Block> CRIMSON_PARQUET = registerBlock("crimson_parquet", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
     public static final Supplier<Block> WARPED_PARQUET = registerBlock("warped_parquet", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
 
@@ -91,6 +92,7 @@ public class ModBlocks {
     public static final Supplier<Block> SANDED_JUNGLE_WOOD = registerBlock("sanded_jungle_wood", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_WOOD)));
     public static final Supplier<Block> SANDED_ACACIA_WOOD = registerBlock("sanded_acacia_wood", () -> new Block(Block.Properties.copy(Blocks.ACACIA_WOOD)));
     public static final Supplier<Block> SANDED_DARK_OAK_WOOD = registerBlock("sanded_dark_oak_wood", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_WOOD)));
+    public static final Supplier<Block> SANDED_MANGROVE_WOOD = registerBlock("sanded_mangrove_wood", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_WOOD)));
     public static final Supplier<Block> SANDED_CRIMSON_WOOD = registerBlock("sanded_crimson_wood", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_HYPHAE)));
     public static final Supplier<Block> SANDED_WARPED_WOOD = registerBlock("sanded_warped_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
 
