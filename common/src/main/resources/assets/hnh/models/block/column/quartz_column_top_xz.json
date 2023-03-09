@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_mirrored",
+  "textures": {
+    "end": "minecraft:block/quartz_block_top",
+    "side": "hnh:block/column/quartz_bottom"
+  }
+}

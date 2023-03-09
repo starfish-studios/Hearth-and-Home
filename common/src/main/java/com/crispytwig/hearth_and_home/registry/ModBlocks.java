@@ -302,7 +302,7 @@ public class ModBlocks {
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {
         Supplier<T> supplier = ModRegistry.registerBlock(name, block);
         ModRegistry.registerItem(name, () -> new BlockItem(supplier.get(), new Item.Properties().tab(Mod.TAB)));
-        if (name.contains("glass")) System.out.println(Mod.MOD_ID + ":" + name);
+        //if (name.contains("glass")) System.out.println(Mod.MOD_ID + ":" + name);
         return supplier;
     }
 

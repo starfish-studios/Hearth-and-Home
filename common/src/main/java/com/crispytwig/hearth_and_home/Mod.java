@@ -22,6 +22,6 @@ public class Mod {
     }
 
     public static void registerFlammables() {
-
+        
     }
 }

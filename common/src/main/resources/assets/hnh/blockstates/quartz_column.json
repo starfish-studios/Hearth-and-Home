@@ -1,11 +1,11 @@
 {
     "variants": {
-        "type=none,axis=x": {"model": "hnh:block/column/quartz_column_none","x": 90,"y": 90},
+        "type=none,axis=x": {"model": "hnh:block/column/quartz_column_none_xz","x": 90,"y": 90},
         "type=none,axis=y": {"model": "hnh:block/column/quartz_column_none"},
-        "type=none,axis=z": {"model": "hnh:block/column/quartz_column_none","x": 90},
-        "type=top,axis=x": {"model": "hnh:block/column/quartz_column_bottom","x": 270,"y": 90},
+        "type=none,axis=z": {"model": "hnh:block/column/quartz_column_none_xz","x": 90},
+        "type=top,axis=x": {"model": "hnh:block/column/quartz_column_top_xz","x": 270,"y": 90},
         "type=top,axis=y": {"model": "hnh:block/column/quartz_column_top"},
-        "type=top,axis=z": {"model": "hnh:block/column/quartz_column_bottom","x": 90},
+        "type=top,axis=z": {"model": "hnh:block/column/quartz_column_top_xz","x": 90},
         "type=middle,axis=x": {"model": "hnh:block/column/quartz_column_middle","x": 90,"y": 90},
         "type=middle,axis=y": {"model": "hnh:block/column/quartz_column_middle"},
         "type=middle,axis=z": {"model": "hnh:block/column/quartz_column_middle","x": 270},
