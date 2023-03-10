@@ -1,13 +1,13 @@
 {
     "variants": {
         "type=bottom": {
-            "model": "hnh:block/terracotta_bricks/lime_terracotta_brick_slab"
+            "model": "hnh:block/terracotta_bricks/lime_slab"
         },
         "type=double": {
-            "model": "hnh:block/terracotta_bricks/lime_terracotta_bricks"
+            "model": "hnh:block/terracotta_bricks/lime"
         },
         "type=top": {
-            "model": "hnh:block/terracotta_bricks/lime_terracotta_brick_slab_top"
+            "model": "hnh:block/terracotta_bricks/lime_slab_top"
         }
     }
 }

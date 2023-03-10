@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "item": "minecraft:birch_planks"
+        }
+    ],
+    "result": {
+        "item": "hnh:birch_sanded_wood",
+        "count": 8
+    }
+}

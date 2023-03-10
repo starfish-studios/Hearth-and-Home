@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/barred_glass/green_stained_barred_glass"
+            "model": "hnh:block/barred_glass/green"
         }
     }
 }

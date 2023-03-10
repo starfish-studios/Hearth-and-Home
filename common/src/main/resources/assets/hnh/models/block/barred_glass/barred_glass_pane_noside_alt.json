@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "render_type": "cutout",
   "textures": {
-    "pane": "hnh:block/barred_glass"
+    "pane": "hnh:block/barred_glass/barred_glass"
   }
 }

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "hnh:block/terracotta_bricks/light_blue",
+        "side": "hnh:block/terracotta_bricks/light_blue",
+        "top": "hnh:block/terracotta_bricks/light_blue"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/terracotta_bricks/cyan_terracotta_bricks"
+            "model": "hnh:block/terracotta_bricks/cyan"
         }
     }
 }

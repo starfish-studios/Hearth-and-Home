@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/jungle_parquet"
+            "model": "hnh:block/parquet/jungle"
         }
     }
 }

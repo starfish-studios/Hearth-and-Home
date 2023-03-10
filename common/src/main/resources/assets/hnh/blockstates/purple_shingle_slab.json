@@ -1,13 +1,13 @@
 {
     "variants": {
         "type=bottom": {
-            "model": "hnh:block/shingles/purple_shingle_slab"
+            "model": "hnh:block/shingles/purple_slab"
         },
         "type=double": {
-            "model": "hnh:block/shingles/purple_shingles"
+            "model": "hnh:block/shingles/purple"
         },
         "type=top": {
-            "model": "hnh:block/shingles/purple_shingle_slab_top"
+            "model": "hnh:block/shingles/purple_slab_top"
         }
     }
 }

@@ -1,15 +1,15 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "group": "paper_lanterns",
     "ingredients": [
         {
-            "item": "hnh:paper_lantern"
+            "item": "minecraft:lime_dye"
         },
         {
-            "item": "minecraft:lime_dye"
+            "item": "hnh:white_paper_lantern"
         }
     ],
     "result": {
-        "item": "hnh:lime_paper_lantern",
-        "count": 1
+        "item": "hnh:lime_paper_lantern"
     }
 }

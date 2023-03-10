@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "hnh:block/terracotta_bricks/gray",
+        "side": "hnh:block/terracotta_bricks/gray",
+        "top": "hnh:block/terracotta_bricks/gray"
+    }
+}

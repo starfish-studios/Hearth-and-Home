@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/stairs",
-    "textures": {
-        "bottom": "hnh:block/yellow_shingles",
-        "side": "hnh:block/yellow_shingles",
-        "top": "hnh:block/yellow_shingles"
-    }
-}

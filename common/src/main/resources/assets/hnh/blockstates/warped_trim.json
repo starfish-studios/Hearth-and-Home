@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/trim/warped_trim"
+            "model": "hnh:block/trim/warped"
         }
     }
 }

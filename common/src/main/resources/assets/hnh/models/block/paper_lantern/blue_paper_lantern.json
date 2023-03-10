@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "hnh:block/paper_lantern/blue_paper_lantern_top",
-        "side": "hnh:block/paper_lantern/blue_paper_lantern_side"
-    }
-}

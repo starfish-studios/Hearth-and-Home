@@ -1,40 +1,40 @@
 {
     "variants": {
         "facing=north,type=bottom": {
-            "model": "hnh:block/tiles/yellow_tile_slab"
+            "model": "hnh:block/tiles/yellow_slab"
         },
         "facing=north,type=top": {
-            "model": "hnh:block/tiles/yellow_tile_slab_top"
+            "model": "hnh:block/tiles/yellow_slab_top"
         },
         "facing=north,type=double": {
-            "model": "hnh:block/tiles/yellow_tiles"
+            "model": "hnh:block/tiles/yellow"
         },
         "facing=east,type=bottom": {
-            "model": "hnh:block/tiles/yellow_tile_slab_flipped"
+            "model": "hnh:block/tiles/yellow_slab_flipped"
         },
         "facing=east,type=top": {
-            "model": "hnh:block/tiles/yellow_tile_slab_top_flipped"
+            "model": "hnh:block/tiles/yellow_slab_top_flipped"
         },
         "facing=east,type=double": {
-            "model": "hnh:block/tiles/yellow_tiles_flipped"
+            "model": "hnh:block/tiles/yellow_flipped"
         },
         "facing=south,type=bottom": {
-            "model": "hnh:block/tiles/yellow_tile_slab"
+            "model": "hnh:block/tiles/yellow_slab"
         },
         "facing=south,type=top": {
-            "model": "hnh:block/tiles/yellow_tile_slab_top"
+            "model": "hnh:block/tiles/yellow_slab_top"
         },
         "facing=south,type=double": {
-            "model": "hnh:block/tiles/yellow_tiles"
+            "model": "hnh:block/tiles/yellow"
         },
         "facing=west,type=bottom": {
-            "model": "hnh:block/tiles/yellow_tile_slab_flipped"
+            "model": "hnh:block/tiles/yellow_slab_flipped"
         },
         "facing=west,type=top": {
-            "model": "hnh:block/tiles/yellow_tile_slab_top_flipped"
+            "model": "hnh:block/tiles/yellow_slab_top_flipped"
         },
         "facing=west,type=double": {
-            "model": "hnh:block/tiles/yellow_tiles_flipped"
+            "model": "hnh:block/tiles/yellow_flipped"
         }
     }
 }

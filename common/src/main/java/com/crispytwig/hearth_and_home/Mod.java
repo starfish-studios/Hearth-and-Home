@@ -20,8 +20,4 @@ public class Mod {
         ModEntityTypes.init();
         ModBlockEntityTypes.init();
     }
-
-    public static void registerFlammables() {
-        
-    }
 }

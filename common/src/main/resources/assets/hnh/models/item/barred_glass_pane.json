@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "hnh:block/barred_glass"
+    "layer0": "hnh:block/barred_glass/barred_glass"
   }
 }

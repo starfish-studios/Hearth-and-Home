@@ -85,15 +85,15 @@ public class ModBlocks {
     public static final Supplier<Block> WARPED_TRIM = registerBlock("warped_trim", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
 
     // Sanded Wood
-    public static final Supplier<Block> SANDED_OAK_WOOD = registerBlock("sanded_oak_wood", () -> new Block(Block.Properties.copy(Blocks.OAK_WOOD)));
-    public static final Supplier<Block> SANDED_SPRUCE_WOOD = registerBlock("sanded_spruce_wood", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_WOOD)));
-    public static final Supplier<Block> SANDED_BIRCH_WOOD = registerBlock("sanded_birch_wood", () -> new Block(Block.Properties.copy(Blocks.BIRCH_WOOD)));
-    public static final Supplier<Block> SANDED_JUNGLE_WOOD = registerBlock("sanded_jungle_wood", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_WOOD)));
-    public static final Supplier<Block> SANDED_ACACIA_WOOD = registerBlock("sanded_acacia_wood", () -> new Block(Block.Properties.copy(Blocks.ACACIA_WOOD)));
-    public static final Supplier<Block> SANDED_DARK_OAK_WOOD = registerBlock("sanded_dark_oak_wood", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_WOOD)));
-    public static final Supplier<Block> SANDED_MANGROVE_WOOD = registerBlock("sanded_mangrove_wood", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_WOOD)));
-    public static final Supplier<Block> SANDED_CRIMSON_WOOD = registerBlock("sanded_crimson_wood", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_HYPHAE)));
-    public static final Supplier<Block> SANDED_WARPED_WOOD = registerBlock("sanded_warped_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
+    public static final Supplier<Block> OAK_SANDED_WOOD = registerBlock("oak_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.OAK_WOOD)));
+    public static final Supplier<Block> SPRUCE_SANDED_WOOD = registerBlock("spruce_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_WOOD)));
+    public static final Supplier<Block> BIRCH_SANDED_WOOD = registerBlock("birch_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.BIRCH_WOOD)));
+    public static final Supplier<Block> JUNGLE_SANDED_WOOD = registerBlock("jungle_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_WOOD)));
+    public static final Supplier<Block> ACACIA_SANDED_WOOD = registerBlock("acacia_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.ACACIA_WOOD)));
+    public static final Supplier<Block> DARK_OAK_SANDED_WOOD = registerBlock("dark_oak_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_WOOD)));
+    public static final Supplier<Block> MANGROVE_SANDED_WOOD = registerBlock("mangrove_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_WOOD)));
+    public static final Supplier<Block> CRIMSON_SANDED_WOOD = registerBlock("crimson_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_HYPHAE)));
+    public static final Supplier<Block> WARPED_SANDED_WOOD = registerBlock("warped_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
 
 
     
@@ -244,7 +244,7 @@ public class ModBlocks {
     public static final Supplier<Block> BLACK_TILE_SLAB = registerBlock("black_tile_slab", () -> new RotatingSlabBlock(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
 
     // Paper Lanterns
-    public static final Supplier<Block> PAPER_LANTERN = registerBlock("paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
+    public static final Supplier<Block> WHITE_PAPER_LANTERN = registerBlock("white_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
     public static final Supplier<Block> ORANGE_PAPER_LANTERN = registerBlock("orange_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
     public static final Supplier<Block> MAGENTA_PAPER_LANTERN = registerBlock("magenta_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
     public static final Supplier<Block> LIGHT_BLUE_PAPER_LANTERN = registerBlock("light_blue_paper_lantern", () -> new Block(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).lightLevel((state) -> 15).sound(SoundType.WOOL)));
@@ -314,6 +314,10 @@ public class ModBlocks {
 
     public static <T extends Block> Supplier<T> registerBlockOnly(String name, Supplier<T> block) {
         return ModRegistry.registerBlock(name, block);
+    }
+
+    public static void registerFlammables() {
+        ModRegistry.setFlammable(OAK_PARQUET, 5, 20);
     }
 
     public static void init() {}

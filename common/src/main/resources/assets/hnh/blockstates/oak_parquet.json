@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/oak_parquet"
+            "model": "hnh:block/parquet/oak"
         }
     }
 }

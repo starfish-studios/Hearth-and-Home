@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "hnh:block/tiles/cyan_tiles"
-    }
-}

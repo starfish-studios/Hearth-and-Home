@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/crimson_parquet"
+            "model": "hnh:block/parquet/crimson"
         }
     }
 }

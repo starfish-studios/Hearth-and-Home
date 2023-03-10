@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/trim/acacia_trim"
+            "model": "hnh:block/trim/acacia"
         }
     }
 }

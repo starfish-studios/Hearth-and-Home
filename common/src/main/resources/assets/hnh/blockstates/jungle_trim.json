@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/trim/jungle_trim"
+            "model": "hnh:block/trim/jungle"
         }
     }
 }

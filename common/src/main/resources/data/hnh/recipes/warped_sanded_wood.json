@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        },
+        {
+            "item": "minecraft:warped_planks"
+        }
+    ],
+    "result": {
+        "item": "hnh:warped_sanded_wood",
+        "count": 8
+    }
+}

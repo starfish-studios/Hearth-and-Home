@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"all": "hnh:block/terracotta_bricks"
+		"all": "hnh:block/terracotta_bricks/terracotta_bricks"
 	}
 }

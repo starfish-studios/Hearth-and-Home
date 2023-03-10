@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/inner_stairs",
-    "textures": {
-        "bottom": "hnh:block/yellow_terracotta_bricks",
-        "side": "hnh:block/yellow_terracotta_bricks",
-        "top": "hnh:block/yellow_terracotta_bricks"
-    }
-}

@@ -50,7 +50,7 @@ public class ModForge {
 
     private void setup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-            Mod.registerFlammables();
+            ModBlocks.registerFlammables();
         });
 
     }

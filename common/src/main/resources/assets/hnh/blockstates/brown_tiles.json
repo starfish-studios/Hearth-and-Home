@@ -1,16 +1,16 @@
 {
     "variants": {
         "facing=east": {
-            "model": "hnh:block/tiles/brown_tiles_flipped"
+            "model": "hnh:block/tiles/brown_flipped"
         },
         "facing=north": {
-            "model": "hnh:block/tiles/brown_tiles"
+            "model": "hnh:block/tiles/brown"
         },
         "facing=south": {
-            "model": "hnh:block/tiles/brown_tiles"
+            "model": "hnh:block/tiles/brown"
         },
         "facing=west": {
-            "model": "hnh:block/tiles/brown_tiles_flipped"
+            "model": "hnh:block/tiles/brown_flipped"
         }
     }
 }

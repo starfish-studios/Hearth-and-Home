@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        },
+        {
+            "item": "minecraft:dark_oak_planks"
+        }
+    ],
+    "result": {
+        "item": "hnh:dark_oak_sanded_wood",
+        "count": 8
+    }
+}

@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/paper_lantern/pink_paper_lantern"
+            "model": "hnh:block/paper_lantern/pink"
         }
     }
 }

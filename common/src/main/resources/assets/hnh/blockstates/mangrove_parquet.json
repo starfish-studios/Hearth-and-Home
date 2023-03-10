@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "hnh:block/mangrove_parquet"
+            "model": "hnh:block/parquet/mangrove"
         }
     }
 }
