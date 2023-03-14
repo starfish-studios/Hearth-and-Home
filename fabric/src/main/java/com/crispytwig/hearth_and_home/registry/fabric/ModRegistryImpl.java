@@ -72,4 +72,8 @@ public class ModRegistryImpl {
     public static <T extends Block> void setFlammable(Block fireBlock, Supplier<T> block, int encouragement, int flammability) {
         FlammableBlockRegistry.getInstance(fireBlock).add(block.get(), encouragement, flammability);
     }
+
+    public static boolean isForge() {
+        return false;
+    }
 }

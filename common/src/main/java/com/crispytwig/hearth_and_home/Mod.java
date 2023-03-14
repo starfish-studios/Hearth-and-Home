@@ -1,6 +1,8 @@
 package com.crispytwig.hearth_and_home;
 
 import com.crispytwig.hearth_and_home.registry.*;
+import com.crispytwig.hearth_and_home.util.block.BlocksColorAPI;
+import com.crispytwig.hearth_and_home.util.block.BlocksColorInternal;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
