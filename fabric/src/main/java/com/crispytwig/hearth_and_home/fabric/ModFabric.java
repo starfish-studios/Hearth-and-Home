@@ -2,6 +2,7 @@ package com.crispytwig.hearth_and_home.fabric;
 
 import com.crispytwig.hearth_and_home.Mod;
 import com.crispytwig.hearth_and_home.events.BlockInteractionEvent;
+import com.crispytwig.hearth_and_home.integration.IntegrationHandler;
 import com.crispytwig.hearth_and_home.registry.ModBlocks;
 import com.crispytwig.hearth_and_home.util.block.BlocksColorInternal;
 import net.fabricmc.api.ModInitializer;
@@ -12,7 +13,8 @@ public class ModFabric implements ModInitializer {
     public void onInitialize() {
         Mod.init();
         ModBlocks.registerFlammables();
-        BlocksColorInternal.setup();
+
+        IntegrationHandler.init();
         UseBlockCallback.EVENT.register(BlockInteractionEvent::use);
     }
 }

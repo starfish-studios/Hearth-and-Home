@@ -2,6 +2,7 @@ package com.crispytwig.hearth_and_home.forge;
 
 import com.crispytwig.hearth_and_home.Mod;
 import com.crispytwig.hearth_and_home.events.BlockInteractionEvent;
+import com.crispytwig.hearth_and_home.integration.IntegrationHandler;
 import com.crispytwig.hearth_and_home.registry.ModBlocks;
 import com.crispytwig.hearth_and_home.registry.forge.ModRegistryImpl;
 import com.crispytwig.hearth_and_home.util.block.BlocksColorAPI;
@@ -61,7 +62,7 @@ public class ModForge {
     }
 
     private void setupComplete(final FMLLoadCompleteEvent event) {
-        BlocksColorInternal.setup();
+        IntegrationHandler.init();
     }
 
 

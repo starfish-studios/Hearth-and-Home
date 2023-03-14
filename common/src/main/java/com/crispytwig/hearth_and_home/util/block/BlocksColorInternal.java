@@ -229,7 +229,6 @@ public class BlocksColorInternal {
                 id = new ResourceLocation(id.getPath().replace("stained_", ""));
             } else if (id.getNamespace().equals("hnh") && id.getPath().contains("stained_barred_glass")) {
                 id = new ResourceLocation("hnh", id.getPath().replace("stained_", ""));
-                System.out.println(id);
             } else if (id.getNamespace().equals("quark")) {
                 if (id.getPath().equals("rune")) {
                     id = new ResourceLocation("quark", "blank_rune");

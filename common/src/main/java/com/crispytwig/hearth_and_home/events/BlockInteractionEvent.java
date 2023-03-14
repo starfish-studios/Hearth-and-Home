@@ -1,5 +1,6 @@
 package com.crispytwig.hearth_and_home.events;
 
+import com.crispytwig.hearth_and_home.integration.IntegrationHandler;
 import com.crispytwig.hearth_and_home.util.block.BlocksColorAPI;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -30,7 +31,7 @@ public class BlockInteractionEvent {
         ItemStack itemStack = player.getItemInHand(hand);
         if (itemStack.is(Items.AIR)) return InteractionResult.PASS;
 
-        Item result = BlocksColorAPI.changeColor(itemStack.getItem(), null);
+        Item result = IntegrationHandler.changeColor(itemStack.getItem(), null);
 
         if (result == null || result == itemStack.getItem()) return InteractionResult.PASS;
 

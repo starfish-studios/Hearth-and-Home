@@ -25,13 +25,26 @@ configurations {
     developmentForge.extendsFrom common
 }
 
+repositories {
+    maven { url "https://maven.terraformersmc.com/" }
+	maven {
+        name = 'tterrag.maven'
+        url = 'https://maven.tterrag.com/'
+    }
+	maven {
+		url = "https://www.cursemaven.com"
+		allowInsecureProtocol = true
+	}
+}
+
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
+    modImplementation("curse.maven:selene-499980:4431044")
+	
+	
 }
 
 processResources {

@@ -1,11 +1,12 @@
 {
   "values": [
     "hnh:oak_parquet",
+	"hnh:spruce_parquet",
     "hnh:birch_parquet",
+	"hnh:jungle_parquet",
+	"hnh:acacia_parquet",
     "hnh:dark_oak_parquet",
-    "hnh:jungle_parquet",
-    "hnh:spruce_parquet",
-    "hnh:acacia_parquet",
+	"hnh:mangrove_parquet",
     "hnh:crimson_parquet",
     "hnh:warped_parquet"
   ]

@@ -1,12 +1,13 @@
 {
   "values": [
-    "hnh:sanded_oak_wood",
-    "hnh:sanded_birch_wood",
-    "hnh:sanded_spruce_wood",
-    "hnh:sanded_jungle_wood",
-    "hnh:sanded_acacia_wood",
-    "hnh:sanded_dark_oak_wood",
-    "hnh:sanded_crimson_wood",
-    "hnh:sanded_warped_wood"
+    "hnh:oak_sanded_wood",
+    "hnh:birch_sanded_wood",
+    "hnh:spruce_sanded_wood",
+    "hnh:jungle_sanded_wood",
+    "hnh:acacia_sanded_wood",
+    "hnh:dark_oak_sanded_wood",
+	"hnh:mangrove_sanded_wood",
+    "hnh:crimson_sanded_wood",
+    "hnh:warped_sanded_wood"
   ]
 }
