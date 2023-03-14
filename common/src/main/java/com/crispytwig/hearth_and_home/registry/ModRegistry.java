@@ -21,6 +21,7 @@ import net.minecraft.world.level.block.entity.SignBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Set;
 import java.util.function.Supplier;
 
 public class ModRegistry {
@@ -92,4 +93,5 @@ public class ModRegistry {
     public static boolean isForge() {
         throw new AssertionError();
     }
+
 }

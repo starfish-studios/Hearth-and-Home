@@ -32,7 +32,6 @@ public class BlocksColorInternal {
         Map<String, DyeColor> colors = new HashMap<>();
         VANILLA_COLORS.forEach(d -> colors.put(d.getName(), d));
         List<String> colorPriority = new ArrayList<>(colors.keySet().stream().toList());
-
         addColoredFromRegistry(colors, colorPriority, Registry.BLOCK, BLOCK_COLOR_SETS);
         addColoredFromRegistry(colors, colorPriority, Registry.ITEM, ITEM_COLOR_SETS);
 

@@ -29,6 +29,7 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -47,6 +48,7 @@ public class ModForge {
         ModRegistryImpl.BLOCK_ENTITY_TYPES.register(bus);
 
         bus.addListener(this::setup);
+        bus.addListener(this::setupComplete);
 
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -55,8 +57,11 @@ public class ModForge {
     private void setup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             ModBlocks.registerFlammables();
-            BlocksColorInternal.setup();
         });
+    }
+
+    private void setupComplete(final FMLLoadCompleteEvent event) {
+        BlocksColorInternal.setup();
     }
 
 
