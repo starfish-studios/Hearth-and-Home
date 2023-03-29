@@ -20,6 +20,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
 	
 	modImplementation("curse.maven:selene-499980:4435753")
+	modImplementation("curse.maven:supplementaries-412082:4429189")
 }
 
 loom {

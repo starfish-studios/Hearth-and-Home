@@ -59,10 +59,11 @@ public class ModForge {
         event.enqueueWork(() -> {
             ModBlocks.registerFlammables();
         });
+        IntegrationHandler.init();
     }
 
     private void setupComplete(final FMLLoadCompleteEvent event) {
-        IntegrationHandler.init();
+        IntegrationHandler.postInit();
     }
 
 

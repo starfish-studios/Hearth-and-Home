@@ -46,6 +46,7 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 	
 	modImplementation("curse.maven:selene-499980:4435753")
+	modImplementation("curse.maven:supplementaries-412082:4429189")
 }
 
 processResources {

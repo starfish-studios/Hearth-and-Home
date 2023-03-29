@@ -1,7 +1,10 @@
 package com.crispytwig.hearth_and_home.registry;
 
 import com.crispytwig.hearth_and_home.Mod;
-import com.crispytwig.hearth_and_home.block.*;
+import com.crispytwig.hearth_and_home.block.ChimneyBlock;
+import com.crispytwig.hearth_and_home.block.ColumnBlock;
+import com.crispytwig.hearth_and_home.block.RotatingSlabBlock;
+import net.minecraft.core.cauldron.CauldronInteraction;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -10,6 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 
+import java.util.Map;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -297,7 +301,9 @@ public class ModBlocks {
     public static final Supplier<Block> RED_STAINED_BARRED_GLASS_PANE = registerBlock("red_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.RED, BlockBehaviour.Properties.copy(Blocks.RED_STAINED_GLASS_PANE)));
     public static final Supplier<Block> BLACK_STAINED_BARRED_GLASS_PANE = registerBlock("black_stained_barred_glass_pane", () -> new StainedGlassPaneBlock(DyeColor.BLACK, BlockBehaviour.Properties.copy(Blocks.BLACK_STAINED_GLASS_PANE)));
 
-    // Registry
+    //Integration
+    static Map<Item, CauldronInteraction> a = Map.of();
+    public static final Supplier<Block> SOAPY_CAULDRON = registerBlockOnly("soapy_cauldron", () -> new LayeredCauldronBlock(BlockBehaviour.Properties.copy(Blocks.CAULDRON), null, CauldronInteraction.newInteractionMap()));
 
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {
         Supplier<T> supplier = ModRegistry.registerBlock(name, block);

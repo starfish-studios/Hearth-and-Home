@@ -13,8 +13,8 @@ public class ModFabric implements ModInitializer {
     public void onInitialize() {
         Mod.init();
         ModBlocks.registerFlammables();
-
-        IntegrationHandler.init();
         UseBlockCallback.EVENT.register(BlockInteractionEvent::use);
+        IntegrationHandler.init();
+        IntegrationHandler.postInit();
     }
 }

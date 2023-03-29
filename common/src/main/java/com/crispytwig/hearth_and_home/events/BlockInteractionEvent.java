@@ -1,10 +1,14 @@
 package com.crispytwig.hearth_and_home.events;
 
 import com.crispytwig.hearth_and_home.integration.IntegrationHandler;
+import com.crispytwig.hearth_and_home.registry.ModBlocks;
 import com.crispytwig.hearth_and_home.util.block.BlocksColorAPI;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.Tag;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -21,21 +25,20 @@ public class BlockInteractionEvent {
     public static InteractionResult use(Player player, Level level, InteractionHand hand, BlockHitResult pos) {
         BlockState state = level.getBlockState(pos.getBlockPos());
 
-        if (state.is(Blocks.WATER_CAULDRON) && state.getValue(LayeredCauldronBlock.LEVEL) != 0) return cauldronWashing(player, level, hand, pos);
+        if (!IntegrationHandler.supplementaries_soap_cauldron && state.is(Blocks.WATER_CAULDRON)) return cauldronWashing(player, level, state, hand, pos, -1);
+        if (IntegrationHandler.supplementaries_soap_cauldron && state.is(ModBlocks.SOAPY_CAULDRON.get())) return cauldronWashing(player, level, state, hand, pos, 5);
+
 
         return InteractionResult.PASS;
     }
 
-    public static InteractionResult cauldronWashing(Player player, Level level, InteractionHand hand, BlockHitResult pos) {
-        BlockState state = level.getBlockState(pos.getBlockPos());
+    public static InteractionResult cauldronWashing(Player player, Level level, BlockState state, InteractionHand hand, BlockHitResult pos, int useLiquidChance) {
         ItemStack itemStack = player.getItemInHand(hand);
         if (itemStack.is(Items.AIR)) return InteractionResult.PASS;
 
         Item result = IntegrationHandler.changeColor(itemStack.getItem(), null);
 
         if (result == null || result == itemStack.getItem()) return InteractionResult.PASS;
-
-        player.swing(hand);
 
         CompoundTag nbt = itemStack.getTag();
         ItemStack resultStack = new ItemStack(result);
@@ -44,7 +47,10 @@ public class BlockInteractionEvent {
         player.getInventory().add(resultStack);
 
 
-        LayeredCauldronBlock.lowerFillLevel(state, level, pos.getBlockPos());
+        if (useLiquidChance != -1 && RandomSource.create().nextInt(useLiquidChance) == 0) LayeredCauldronBlock.lowerFillLevel(state, level, pos.getBlockPos());
+
+        level.playSound(null, pos.getBlockPos(), SoundEvents.GENERIC_SPLASH, SoundSource.BLOCKS, 1.0F, 1.0F);
+        player.swing(hand);
         return InteractionResult.SUCCESS;
     }
 }

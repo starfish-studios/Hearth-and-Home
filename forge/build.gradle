@@ -43,8 +43,7 @@ dependencies {
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
     modImplementation("curse.maven:selene-499980:4431044")
-	
-	
+	modImplementation("curse.maven:supplementaries-412082:4429188")
 }
 
 processResources {
