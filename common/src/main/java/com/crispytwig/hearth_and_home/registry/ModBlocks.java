@@ -21,6 +21,7 @@ public class ModBlocks {
     // public static final Supplier<Block> LARGE_POT = registerBlock("large_pot", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_BROWN).strength(1.5F, 6.0F).sound(SoundType.STONE)));
 
     public static final Supplier<Block> SHOJI = registerBlock("shoji", () -> new ColumnBlock(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).sound(SoundType.WOOL)));
+    public static final Supplier<Block> SHOJI_PANEL = registerBlock("shoji_panel", () -> new IronBarsBlock(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).sound(SoundType.WOOL)));
 
     public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).strength(1.0F).sound(SoundType.BAMBOO)));
     public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).randomTicks().instabreak().strength(1.0F).sound(SoundType.BAMBOO).noOcclusion()));
