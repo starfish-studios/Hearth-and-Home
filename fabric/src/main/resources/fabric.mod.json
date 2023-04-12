@@ -3,13 +3,13 @@
   "id": "hearth_and_home",
   "version": "${version}",
   "name": "Hearth & Home",
-  "description": "A template for creating mods.",
+  "description": "Adds a wide range of new building blocks, adding a touch of warmth and comfort to your world!",
   "authors": [
-    "crispytwig"
+    "Starfish Studios"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/another-furniture",
-    "issues": "https://github.com/starfish-studios/AnotherFurniture/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hearth-and-home",
+    "issues": "https://github.com/crispytwig/Hearth-and-Home/issues"
   },
   "license": "MIT",
   "icon": "icon.png",

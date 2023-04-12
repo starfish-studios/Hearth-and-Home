@@ -11,9 +11,9 @@ displayName = "Hearth & Home"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/hearth-and-home"
 logoFile = "icon.png"
 #credits="Thanks for this example mod goes to Java"
-authors = "crispytwig"
+authors = "Starfish Studios"
 description = '''
-Decorative blocks out of scope to Another Furniture
+Adds a wide range of new building blocks, adding a touch of warmth and comfort to your world!
 '''
 
 [[dependencies.hnh]]

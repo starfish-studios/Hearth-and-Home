@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hnh:parquet",
+    "pattern": [
+        "O0",
+        "O0"
+    ],
+    "key": {
+        "O": {
+            "item": "hnh:shoji"
+        }
+    },
+    "result": {
+        "item": "hnh:shoji_panel",
+        "count": 4
+    }
+}
