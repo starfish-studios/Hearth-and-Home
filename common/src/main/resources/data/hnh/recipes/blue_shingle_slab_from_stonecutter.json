@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "hnh:blue_shingles"
+    },
+    "result": "hnh:blue_shingle_slab",
+    "count": 2
+}

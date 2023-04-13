@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "hnh:pink_tiles"
+    },
+    "result": "hnh:pink_tile_slab",
+    "count": 2
+}

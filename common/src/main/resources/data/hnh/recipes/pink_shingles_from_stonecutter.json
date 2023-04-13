@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:pink_terracotta"
+    },
+    "result": "hnh:pink_shingles",
+    "count": 1
+}
