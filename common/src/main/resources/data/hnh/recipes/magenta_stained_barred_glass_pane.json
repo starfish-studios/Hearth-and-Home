@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "hnh:magenta_stained_barred_glass"
+        }
+    },
+    "result": {
+        "item": "hnh:magenta_stained_barred_glass_pane",
+        "count": 16
+    }
+}

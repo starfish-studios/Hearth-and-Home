@@ -1,12 +1,11 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "hnh:parquet",
     "pattern": [
-        "O0",
-        "O0"
+        "SS",
+        "SS"
     ],
     "key": {
-        "O": {
+        "S": {
             "item": "hnh:shoji"
         }
     },
