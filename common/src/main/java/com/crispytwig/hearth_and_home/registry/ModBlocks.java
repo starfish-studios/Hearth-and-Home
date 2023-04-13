@@ -24,8 +24,8 @@ public class ModBlocks {
     public static final Supplier<Block> SHOJI = registerBlock("shoji", () -> new ColumnBlock(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).sound(SoundType.WOOL)));
     public static final Supplier<Block> SHOJI_PANEL = registerBlock("shoji_panel", () -> new IronBarsBlock(Block.Properties.of(Material.CLOTH_DECORATION).strength(0.3F).sound(SoundType.WOOL)));
 
-    public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).strength(1.0F).sound(SoundType.BAMBOO)));
-    public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).randomTicks().instabreak().strength(1.0F).sound(SoundType.BAMBOO).noOcclusion()));
+    public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).strength(0.5F).sound(SoundType.BAMBOO)));
+    public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.BAMBOO, MaterialColor.PLANT).randomTicks().instabreak().strength(0.5F).sound(SoundType.BAMBOO).noOcclusion()));
 
     // Columns
     public static final Supplier<Block> STONE_COLUMN = registerBlock("stone_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
