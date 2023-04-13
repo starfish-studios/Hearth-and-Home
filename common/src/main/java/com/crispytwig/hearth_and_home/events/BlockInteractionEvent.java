@@ -1,11 +1,8 @@
 package com.crispytwig.hearth_and_home.events;
 
 import com.crispytwig.hearth_and_home.integration.IntegrationHandler;
-import com.crispytwig.hearth_and_home.registry.ModBlocks;
-import com.crispytwig.hearth_and_home.util.block.BlocksColorAPI;
-import net.minecraft.core.BlockPos;
+import com.crispytwig.hearth_and_home.registry.ModItemTags;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.Tag;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
@@ -25,8 +22,9 @@ public class BlockInteractionEvent {
     public static InteractionResult use(Player player, Level level, InteractionHand hand, BlockHitResult pos) {
         BlockState state = level.getBlockState(pos.getBlockPos());
 
-        if (!IntegrationHandler.supplementaries_soap_cauldron && state.is(Blocks.WATER_CAULDRON)) return cauldronWashing(player, level, state, hand, pos, -1);
-        if (IntegrationHandler.supplementaries_soap_cauldron && state.is(ModBlocks.SOAPY_CAULDRON.get())) return cauldronWashing(player, level, state, hand, pos, 5);
+        //if (!IntegrationHandler.supplementaries_soap_cauldron && state.is(Blocks.WATER_CAULDRON)) return cauldronWashing(player, level, state, hand, pos, -1);
+        //if (IntegrationHandler.supplementaries_soap_cauldron && state.is(ModBlocks.SOAPY_CAULDRON.get())) return cauldronWashing(player, level, state, hand, pos, 5);
+        if (state.is(Blocks.WATER_CAULDRON)) return cauldronWashing(player, level, state, hand, pos, -1);
 
 
         return InteractionResult.PASS;
@@ -35,6 +33,7 @@ public class BlockInteractionEvent {
     public static InteractionResult cauldronWashing(Player player, Level level, BlockState state, InteractionHand hand, BlockHitResult pos, int useLiquidChance) {
         ItemStack itemStack = player.getItemInHand(hand);
         if (itemStack.is(Items.AIR)) return InteractionResult.PASS;
+        if (itemStack.is(ModItemTags.NOT_WASHABLE)) return InteractionResult.PASS;
 
         Item result = IntegrationHandler.changeColor(itemStack.getItem(), null);
 

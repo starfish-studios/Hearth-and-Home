@@ -10,6 +10,8 @@
     "#hnh:tiles",
     "#hnh:chimneys",
     "hnh:polished_calcite",
+	"hnh:polished_calcite_stairs",
+	"hnh:polished_calcite_slab",
     "hnh:chiseled_calcite"
   ]
 }
