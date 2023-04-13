@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
 license = "MIT"
-issueTrackerURL = "https://github.com/crispytwig/Hearth-and-Home/issues"
+issueTrackerURL = "https://github.com/starfish-studios/Hearth-and-Home"
 
 [[mods]]
 modId = "hnh"
