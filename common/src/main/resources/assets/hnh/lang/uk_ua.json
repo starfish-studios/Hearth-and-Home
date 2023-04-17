@@ -11,6 +11,7 @@
 
   "block.hnh.thatch": "Солома",
   "block.hnh.thatch_slab": "Солом'яна плита",
+  "block.v_slab_compat.hnh.thatch_vertical_slab": "Солом'яна вертикальна плита",
   "block.hnh.thatch_stairs": "Солом'яні сходи",
 
   "block.hnh.woven_bamboo": "Плетений бамбук",
@@ -24,14 +25,17 @@
 
   "block.hnh.calcite_stairs": "Кальцитові сходи",
   "block.hnh.calcite_slab": "Кальцитова плита",
+  "block.v_slab_compat.hnh.calcite_vertical_slab": "Кальцитова вертикальна плита",
   "block.hnh.calcite_wall": "Кальцитова стіна",
   "block.hnh.polished_calcite": "Полірований кальцит",
   "block.hnh.polished_calcite_stairs": "Сходи з полірованого кальциту",
   "block.hnh.polished_calcite_slab": "Плита з полірованого кальциту",
+  "block.v_slab_compat.hnh.polished_calcite_vertical_slab": "Вертикальна плита з полірованого кальциту",
   "block.hnh.polished_calcite_wall": "Стіна з полірованого кальциту",
   "block.hnh.calcite_bricks": "Кальцитова цегла",
   "block.hnh.calcite_brick_stairs": "Сходи з кальцитової цегли",
   "block.hnh.calcite_brick_slab": "Плита з кальцитової цегли",
+  "block.v_slab_compat.hnh.calcite_brick_vertical_slab": "Вертикальна плита з кальцитової цегли",
   "block.hnh.calcite_brick_wall": "Стіна з кальцитової цегли",
   "block.hnh.chiseled_calcite": "Різьблений кальцит",
   "block.hnh.calcite_pillar": "Кальцитова колона",
@@ -71,7 +75,6 @@
   "block.hnh.green_stained_barred_glass_pane": "Зелена вітражна скляна панель",
   "block.hnh.red_stained_barred_glass_pane": "Червона вітражна скляна панель",
   "block.hnh.black_stained_barred_glass_pane": "Чорна вітражна скляна панель",
-
 
   "block.hnh.oak_parquet": "Дубовий паркет",
   "block.hnh.spruce_parquet": "Смерековий паркет",
@@ -116,6 +119,7 @@
   "block.hnh.cobblestone_bricks": "Цегла з кругляку",
   "block.hnh.cobblestone_brick_stairs": "Цегляні сходи з кругляку",
   "block.hnh.cobblestone_brick_slab": "Цегляна плита з кругляку",
+  "block.v_slab_compat.hnh.cobblestone_brick_vertical_slab": "Цегляна вертикальна плита з кругляку",
   "block.hnh.cobblestone_brick_wall": "Цегляна стіна з кругляку",
 
   "block.hnh.white_paper_lantern": "Білий паперовий ліхтар",
