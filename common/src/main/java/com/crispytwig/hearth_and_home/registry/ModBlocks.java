@@ -102,6 +102,25 @@ public class ModBlocks {
     public static final Supplier<Block> WARPED_SANDED_WOOD = registerBlock("warped_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.WARPED_HYPHAE)));
 
 
+    // Terracotta Mosaics
+    public static final Supplier<Block> TERRACOTTA_MOSAIC = registerBlock("terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.TERRACOTTA)));
+    public static final Supplier<Block> WHITE_TERRACOTTA_MOSAIC = registerBlock("white_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.WHITE_TERRACOTTA)));
+    public static final Supplier<Block> ORANGE_TERRACOTTA_MOSAIC = registerBlock("orange_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.ORANGE_TERRACOTTA)));
+    public static final Supplier<Block> MAGENTA_TERRACOTTA_MOSAIC = registerBlock("magenta_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.MAGENTA_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_BLUE_TERRACOTTA_MOSAIC = registerBlock("light_blue_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final Supplier<Block> YELLOW_TERRACOTTA_MOSAIC = registerBlock("yellow_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.YELLOW_TERRACOTTA)));
+    public static final Supplier<Block> LIME_TERRACOTTA_MOSAIC = registerBlock("lime_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.LIME_TERRACOTTA)));
+    public static final Supplier<Block> PINK_TERRACOTTA_MOSAIC = registerBlock("pink_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.PINK_TERRACOTTA)));
+    public static final Supplier<Block> GRAY_TERRACOTTA_MOSAIC = registerBlock("gray_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.GRAY_TERRACOTTA)));
+    public static final Supplier<Block> LIGHT_GRAY_TERRACOTTA_MOSAIC = registerBlock("light_gray_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final Supplier<Block> CYAN_TERRACOTTA_MOSAIC = registerBlock("cyan_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.CYAN_TERRACOTTA)));
+    public static final Supplier<Block> PURPLE_TERRACOTTA_MOSAIC = registerBlock("purple_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.PURPLE_TERRACOTTA)));
+    public static final Supplier<Block> BLUE_TERRACOTTA_MOSAIC = registerBlock("blue_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.BLUE_TERRACOTTA)));
+    public static final Supplier<Block> BROWN_TERRACOTTA_MOSAIC = registerBlock("brown_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.BROWN_TERRACOTTA)));
+    public static final Supplier<Block> GREEN_TERRACOTTA_MOSAIC = registerBlock("green_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.GREEN_TERRACOTTA)));
+    public static final Supplier<Block> RED_TERRACOTTA_MOSAIC = registerBlock("red_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.RED_TERRACOTTA)));
+    public static final Supplier<Block> BLACK_TERRACOTTA_MOSAIC = registerBlock("black_terracotta_mosaic", () -> new Block(Block.Properties.copy(Blocks.BLACK_TERRACOTTA)));
+
     
     // Terracotta Shingles
     public static final Supplier<Block> SHINGLES = registerBlock("shingles", () -> new HorizontalFacingBlock(Block.Properties.copy(Blocks.TERRACOTTA)));
