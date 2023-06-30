@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/outer_stairs",
+    "parent": "hnh:block/template/outer_stairs",
     "textures": {
         "bottom": "hnh:block/shingles/shingles",
         "side": "hnh:block/shingles/shingles",
