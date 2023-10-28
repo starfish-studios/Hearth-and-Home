@@ -1,0 +1,8 @@
+{
+    "parent": "hnh:block/template/lattice_left",
+    "textures": {
+        "main": "hnh:block/lattice/cherry",
+        "bar": "hnh:block/lattice/cherry_bar",
+        "particle": "#main"
+    }
+}

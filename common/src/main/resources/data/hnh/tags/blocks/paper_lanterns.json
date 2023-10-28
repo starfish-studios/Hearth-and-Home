@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"hnh:white_paper_lantern",
+		"hnh:orange_paper_lantern",
+		"hnh:magenta_paper_lantern",
+		"hnh:light_blue_paper_lantern",
+		"hnh:yellow_paper_lantern",
+		"hnh:lime_paper_lantern",
+		"hnh:pink_paper_lantern",
+		"hnh:gray_paper_lantern",
+		"hnh:light_gray_paper_lantern",
+		"hnh:cyan_paper_lantern",
+		"hnh:purple_paper_lantern",
+		"hnh:blue_paper_lantern",
+		"hnh:brown_paper_lantern",
+		"hnh:green_paper_lantern",
+		"hnh:red_paper_lantern",
+		"hnh:black_paper_lantern"
+	]
+}

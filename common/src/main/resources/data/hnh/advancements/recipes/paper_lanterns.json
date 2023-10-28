@@ -1,0 +1,49 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:campfire"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hnh:cobblestone_chimney",
+			"hnh:mossy_cobblestone_chimney",
+			"hnh:stone_brick_chimney",
+			"hnh:mossy_stone_brick_chimney",
+			"hnh:granite_chimney",
+			"hnh:diorite_chimney",
+			"hnh:andesite_chimney",
+			"hnh:cobbled_deepslate_chimney",
+			"hnh:polished_deepslate_chimney",
+			"hnh:deepslate_brick_chimney",
+			"hnh:deepslate_tile_chimney",
+			"hnh:brick_chimney",
+			"hnh:mud_brick_chimney",
+			"hnh:sandstone_chimney",
+			"hnh:red_standstone_chimney",
+			"hnh:prismarine_chimney",
+			"hnh:nether_brick_chimney",
+			"hnh:red_nether_brick_chimney",
+			"hnh:blackstone_chimney",
+			"hnh:polished_blackstone_chimney",
+			"hnh:polished_blackstone_brick_chimney",
+			"hnh:end_stone_brick_chimney",
+			"hnh:cobblestone_brick_chimney"
+        ]
+    }
+}

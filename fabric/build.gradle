@@ -37,6 +37,7 @@ repositories {
 }
 
 dependencies {
+    // essential
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
 
@@ -45,8 +46,8 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 	
-	modImplementation("curse.maven:selene-499980:4435753")
-	modImplementation("curse.maven:supplementaries-412082:4429189")
+	//modImplementation("curse.maven:selene-499980:4806892")
+	//modImplementation("curse.maven:supplementaries-412082:4816172")
 }
 
 processResources {

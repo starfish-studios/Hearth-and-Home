@@ -1,7 +1,10 @@
 {
     "variants": {
-        "": {
-            "model": "hnh:block/mud_brick_chimney"
+        "top=true": {
+            "model": "hnh:block/chimney/mud_brick_top"
+        },
+        "top=false": {
+            "model": "hnh:block/chimney/mud_brick_column"
         }
     }
 }

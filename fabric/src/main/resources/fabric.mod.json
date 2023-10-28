@@ -16,18 +16,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.crispytwig.hearth_and_home.fabric.ModFabric"
+      "com.starfish_studios.hearth_and_home.fabric.HearthAndHomeFabric"
     ],
     "client": [
-      "com.crispytwig.hearth_and_home.fabric.ModFabricClient"
+      "com.starfish_studios.hearth_and_home.fabric.HearthAndHomeFabricClient"
     ]
   },
   "mixins": [
-    "hearth_and_home.mixins.json"
+    "hearth_and_home-common.mixins.json"
   ],
-  "accessWidener": "hearth_and_home.accesswidener",
   "depends": {
     "fabricloader": ">=0.14.9",
-    "minecraft": ">=1.19.2"
+    "minecraft": ">=1.20.1"
   }
 }

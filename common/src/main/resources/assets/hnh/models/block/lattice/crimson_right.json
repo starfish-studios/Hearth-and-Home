@@ -1,0 +1,8 @@
+{
+    "parent": "hnh:block/template/lattice_right",
+    "textures": {
+        "main": "hnh:block/lattice/crimson",
+        "bar": "hnh:block/lattice/crimson_bar",
+        "particle": "#main"
+    }
+}

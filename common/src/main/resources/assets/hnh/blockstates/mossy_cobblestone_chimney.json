@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "top=true": {
+            "model": "hnh:block/chimney/mossy_cobblestone_top"
+        },
+        "top=false": {
+            "model": "hnh:block/chimney/mossy_cobblestone_column"
+        }
+    }
+}

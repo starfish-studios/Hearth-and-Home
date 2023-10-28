@@ -12,6 +12,7 @@ architectury {
 loom {
 	accessWidenerPath.set(project(":common").file("src/main/resources/hearth_and_home.accesswidener"))
     forge {
+		mixinConfig "hearth_and_home-common.mixins.json"
         mixinConfig "hearth_and_home.mixins.json"
 		convertAccessWideners.set(true)
     }
@@ -42,8 +43,8 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
 
-    modImplementation("curse.maven:selene-499980:4431044")
-	modImplementation("curse.maven:supplementaries-412082:4429188")
+    //modImplementation("curse.maven:selene-499980:4806893")
+	//modImplementation("curse.maven:supplementaries-412082:4816174")
 }
 
 processResources {

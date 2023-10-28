@@ -1,0 +1,6 @@
+{
+    "parent": "hnh:block/template/chimney_column",
+    "textures": {
+        "block": "minecraft:block/prismarine"
+    }
+}

@@ -1,13 +1,14 @@
 {
-  "replace": false,
-  "values": [
-    "#hnh:trims",
-    "#hnh:parquets",
-    "#hnh:sanded_wood",
-    "hnh:woven_bamboo",
-    "hnh:bamboo_mat",
-    "hnh:thatch",
-    "hnh:thatch_stairs",
-    "hnh:thatch_slab"
-  ]
+	"replace": false,
+	"values": [
+		"#hnh:trims",
+		"#hnh:parquets",
+		"#hnh:sanded_wood",
+		"#hnh:lattices",
+		"hnh:woven_bamboo",
+		"hnh:bamboo_mat",
+		"hnh:thatch",
+		"hnh:thatch_stairs",
+		"hnh:thatch_slab"
+	]
 }

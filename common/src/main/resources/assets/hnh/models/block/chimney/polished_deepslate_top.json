@@ -1,0 +1,6 @@
+{
+    "parent": "hnh:block/template/chimney_top",
+    "textures": {
+        "block": "minecraft:block/polished_deepslate"
+    }
+}

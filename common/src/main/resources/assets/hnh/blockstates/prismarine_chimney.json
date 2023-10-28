@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "top=true": {
+            "model": "hnh:block/chimney/prismarine_top"
+        },
+        "top=false": {
+            "model": "hnh:block/chimney/prismarine_column"
+        }
+    }
+}

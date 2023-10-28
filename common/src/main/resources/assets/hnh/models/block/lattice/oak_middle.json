@@ -1,0 +1,7 @@
+{
+    "parent": "hnh:block/template/lattice_middle",
+    "textures": {
+        "main": "hnh:block/lattice/oak",
+        "particle": "#main"
+    }
+}

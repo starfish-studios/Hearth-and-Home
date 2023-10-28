@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"hnh:oak_lattice",
+		"hnh:spruce_lattice",
+		"hnh:birch_lattice",
+		"hnh:jungle_lattice",
+		"hnh:acacia_lattice",
+		"hnh:dark_oak_lattice",
+		"hnh:mangrove_lattice",
+		"hnh:cherry_lattice",
+		"hnh:bamboo_lattice",
+		"hnh:crimson_lattice",
+		"hnh:warped_lattice"
+	]
+}

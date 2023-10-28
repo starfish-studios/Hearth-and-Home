@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.crispytwig.hearth_and_home.mixin.forge",
+  "package": "com.starfish_studios.hearth_and_home.mixin.forge",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [
   ],
   "mixins": [
-    "FireBlockAccessor"
+    "com.starfish_studios.hearth_and_home.forge.FireBlockAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
