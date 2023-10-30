@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:purple_terracotta"
+    },
+    "result": "hearth_and_home:purple_shingle_slab",
+    "count": 2
+}

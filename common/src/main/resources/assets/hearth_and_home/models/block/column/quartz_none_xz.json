@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/quartz_block_top",
+    "side": "hearth_and_home:block/column/quartz_none_alt"
+  }
+}

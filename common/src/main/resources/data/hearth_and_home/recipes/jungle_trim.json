@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "trim",
+    "pattern": [
+        "O",
+        "L",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:jungle_planks"
+        },
+        "L": {
+            "item": "minecraft:stripped_jungle_log"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:jungle_trim",
+        "count": 6
+    }
+}

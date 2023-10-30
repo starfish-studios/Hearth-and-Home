@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:calcite"
-    },
-    "result": "hnh:calcite_column",
-    "count": 1
-}

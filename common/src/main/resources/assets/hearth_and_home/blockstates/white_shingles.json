@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "hearth_and_home:block/shingles/white",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "hearth_and_home:block/shingles/white",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "hearth_and_home:block/shingles/white"
+    },
+    "facing=west": {
+      "model": "hearth_and_home:block/shingles/white",
+      "y": 90
+    }
+  }
+}

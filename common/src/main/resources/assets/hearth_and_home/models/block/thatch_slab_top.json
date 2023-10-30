@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "hearth_and_home:block/thatch_top",
+    "side": "hearth_and_home:block/thatch_side",
+    "top": "hearth_and_home:block/thatch_top"
+  }
+}

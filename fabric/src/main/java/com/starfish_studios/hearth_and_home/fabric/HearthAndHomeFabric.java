@@ -4,6 +4,7 @@ import com.starfish_studios.hearth_and_home.HearthAndHome;
 //import com.starfish_studios.hearth_and_home.events.BlockInteractionEvent;
 //import com.starfish_studios.hearth_and_home.integration.IntegrationHandler;
 import com.starfish_studios.hearth_and_home.registry.HNHBlocks;
+import com.starfish_studios.hearth_and_home.registry.HNHFurnaceFuelRegistry;
 import com.starfish_studios.hearth_and_home.registry.fabric.HNHTabsImpl;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class HearthAndHomeFabric implements ModInitializer {
     public void onInitialize() {
         HearthAndHome.init();
         HNHBlocks.registerFlammables();
+        HNHFurnaceFuelRegistry.init();
 //        UseBlockCallback.EVENT.register(BlockInteractionEvent::use);
         HNHTabsImpl.register();
 //        IntegrationHandler.init();

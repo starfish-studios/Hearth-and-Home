@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:orange_terracotta"
-    },
-    "result": "hnh:orange_shingle_slab",
-    "count": 2
-}

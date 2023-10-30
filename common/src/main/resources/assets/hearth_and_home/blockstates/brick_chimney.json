@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "top=true": {
+            "model": "hearth_and_home:block/chimney/brick_top"
+        },
+        "top=false": {
+            "model": "hearth_and_home:block/chimney/brick_column"
+        }
+    }
+}

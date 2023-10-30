@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:green_terracotta"
-    },
-    "result": "hnh:green_shingle_slab",
-    "count": 2
-}

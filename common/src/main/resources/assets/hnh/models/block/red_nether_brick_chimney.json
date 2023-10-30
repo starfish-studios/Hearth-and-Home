@@ -1,8 +1,0 @@
-{
-	"parent": "hnh:block/chimney",
-	"textures": {
-		"main": "minecraft:block/red_nether_bricks",
-		"particle": "minecraft:block/red_nether_bricks",
-		"top": "hnh:block/red_nether_brick_top"
-	}
-}

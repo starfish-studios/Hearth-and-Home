@@ -1,0 +1,8 @@
+{
+	"parent": "hearth_and_home:block/chimney",
+	"textures": {
+		"main": "hearth_and_home:block/cobblestone_bricks",
+		"particle": "hearth_and_home:block/cobblestone_bricks",
+		"top": "hearth_and_home:block/cobblestone_brick_top"
+	}
+}

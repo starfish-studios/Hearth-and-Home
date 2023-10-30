@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "trim",
+    "pattern": [
+        "O",
+        "L",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:acacia_planks"
+        },
+        "L": {
+            "item": "minecraft:stripped_acacia_log"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:acacia_trim",
+        "count": 6
+    }
+}

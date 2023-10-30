@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:parquet",
+    "pattern": [
+        "O",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:cherry_slab"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:cherry_parquet",
+        "count": 1
+    }
+}

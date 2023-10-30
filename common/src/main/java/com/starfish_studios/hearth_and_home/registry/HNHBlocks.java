@@ -110,6 +110,19 @@ public class HNHBlocks {
     public static final Supplier<Block> CRIMSON_TRIM = registerBlock("crimson_trim", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
     public static final Supplier<Block> WARPED_TRIM = registerBlock("warped_trim", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
 
+    // Vertical Trim
+    public static final Supplier<Block> OAK_VERTICAL_TRIM = registerBlock("oak_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final Supplier<Block> SPRUCE_VERTICAL_TRIM = registerBlock("spruce_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Supplier<Block> BIRCH_VERTICAL_TRIM = registerBlock("birch_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.BIRCH_PLANKS)));
+    public static final Supplier<Block> JUNGLE_VERTICAL_TRIM = registerBlock("jungle_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.JUNGLE_PLANKS)));
+    public static final Supplier<Block> ACACIA_VERTICAL_TRIM = registerBlock("acacia_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.ACACIA_PLANKS)));
+    public static final Supplier<Block> DARK_OAK_VERTICAL_TRIM = registerBlock("dark_oak_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+    public static final Supplier<Block> MANGROVE_VERTICAL_TRIM = registerBlock("mangrove_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.MANGROVE_PLANKS)));
+    public static final Supplier<Block> CHERRY_VERTICAL_TRIM = registerBlock("cherry_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.CHERRY_WOOD)));
+    public static final Supplier<Block> BAMBOO_VERTICAL_TRIM = registerBlock("bamboo_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.BAMBOO_PLANKS)));
+    public static final Supplier<Block> CRIMSON_VERTICAL_TRIM = registerBlock("crimson_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.CRIMSON_PLANKS)));
+    public static final Supplier<Block> WARPED_VERTICAL_TRIM = registerBlock("warped_vertical_trim", () -> new Block(Block.Properties.copy(Blocks.WARPED_PLANKS)));
+
     // Sanded Wood
     public static final Supplier<Block> OAK_SANDED_WOOD = registerBlock("oak_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.OAK_WOOD)));
     public static final Supplier<Block> SPRUCE_SANDED_WOOD = registerBlock("spruce_sanded_wood", () -> new Block(Block.Properties.copy(Blocks.SPRUCE_WOOD)));

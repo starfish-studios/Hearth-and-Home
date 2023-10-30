@@ -1,0 +1,6 @@
+{
+    "parent": "hearth_and_home:block/template/chimney_top",
+    "textures": {
+        "block": "minecraft:block/andesite"
+    }
+}

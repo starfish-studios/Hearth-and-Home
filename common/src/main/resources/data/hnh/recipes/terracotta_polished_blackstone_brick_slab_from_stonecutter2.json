@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:terracotta"
-    },
-    "result": "hnh:terracotta_polished_blackstone_brick_slab",
-    "count": 2
-}

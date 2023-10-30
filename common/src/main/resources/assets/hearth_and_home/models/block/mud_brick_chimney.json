@@ -1,0 +1,8 @@
+{
+	"parent": "hearth_and_home:block/chimney",
+	"textures": {
+		"main": "minecraft:block/mud_bricks",
+		"particle": "minecraft:block/mud_bricks",
+		"top": "hearth_and_home:block/mud_brick_top"
+	}
+}

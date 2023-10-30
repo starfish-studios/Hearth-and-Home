@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:chimneys",
+    "pattern": [
+        "C",
+        "B"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:campfire"
+        },
+        "B": {
+            "item": "minecraft:cobbled_deepslate"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:cobbled_deepslate_chimney",
+        "count": 1
+    }
+}

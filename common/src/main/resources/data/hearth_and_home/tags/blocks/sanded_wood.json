@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"hearth_and_home:oak_sanded_wood",
+		"hearth_and_home:birch_sanded_wood",
+		"hearth_and_home:spruce_sanded_wood",
+		"hearth_and_home:jungle_sanded_wood",
+		"hearth_and_home:acacia_sanded_wood",
+		"hearth_and_home:dark_oak_sanded_wood",
+		"hearth_and_home:mangrove_sanded_wood",
+		"hearth_and_home:cherry_sanded_wood",
+		"hearth_and_home:bamboo_sanded_wood",
+		"hearth_and_home:crimson_sanded_wood",
+		"hearth_and_home:warped_sanded_wood"
+	]
+}

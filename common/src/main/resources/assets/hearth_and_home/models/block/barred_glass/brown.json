@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "render_type": "minecraft:translucent",
+    "textures": {
+        "all": "hearth_and_home:block/barred_glass/brown"
+    }
+}

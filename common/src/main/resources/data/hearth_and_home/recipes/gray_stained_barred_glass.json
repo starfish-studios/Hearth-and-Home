@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "hearth_and_home:stained_barred_glass",
+    "ingredients": [
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "minecraft:gray_dye"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        },
+        {
+            "item": "hearth_and_home:barred_glass"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:gray_stained_barred_glass",
+        "count": 8
+    }
+}

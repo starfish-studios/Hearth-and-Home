@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "hearth_and_home:block/mosaic/oak_mosaic",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "hearth_and_home:block/mosaic/oak_mosaic",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "hearth_and_home:block/mosaic/oak_mosaic"
+    },
+    "facing=west": {
+      "model": "hearth_and_home:block/mosaic/oak_mosaic",
+      "y": 90
+    }
+  }
+}

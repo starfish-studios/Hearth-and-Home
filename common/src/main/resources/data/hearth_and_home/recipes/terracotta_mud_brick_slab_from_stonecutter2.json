@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:terracotta"
+    },
+    "result": "hearth_and_home:terracotta_mud_brick_slab",
+    "count": 2
+}

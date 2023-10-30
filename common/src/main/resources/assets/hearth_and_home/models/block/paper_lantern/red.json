@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "hearth_and_home:block/paper_lantern/red_top",
+        "side": "hearth_and_home:block/paper_lantern/red_side"
+    }
+}

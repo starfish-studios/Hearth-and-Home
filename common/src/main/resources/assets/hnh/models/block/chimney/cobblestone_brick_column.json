@@ -1,6 +1,0 @@
-{
-    "parent": "hnh:block/template/chimney_column",
-    "textures": {
-        "block": "hnh:block/cobblestone_bricks"
-    }
-}

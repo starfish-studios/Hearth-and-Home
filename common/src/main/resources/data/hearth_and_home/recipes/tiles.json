@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#T",
+    "T#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "T": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "hearth_and_home:tiles",
+    "count": 4
+  }
+}

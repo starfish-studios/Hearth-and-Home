@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "trim",
+    "pattern": [
+        "O",
+        "L",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:mangrove_planks"
+        },
+        "L": {
+            "item": "minecraft:stripped_mangrove_log"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:mangrove_trim",
+        "count": 6
+    }
+}

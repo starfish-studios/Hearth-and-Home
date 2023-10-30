@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:column",
+    "pattern": [
+        "C",
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "hearth_and_home:polished_calcite"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:calcite_column",
+        "count": 2
+    }
+}

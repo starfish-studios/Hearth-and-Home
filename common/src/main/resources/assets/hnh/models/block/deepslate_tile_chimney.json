@@ -1,8 +1,0 @@
-{
-	"parent": "hnh:block/chimney",
-	"textures": {
-		"main": "minecraft:block/deepslate_tiles",
-		"particle": "minecraft:block/deepslate_tiles",
-		"top": "hnh:block/deepslate_tile_top"
-	}
-}

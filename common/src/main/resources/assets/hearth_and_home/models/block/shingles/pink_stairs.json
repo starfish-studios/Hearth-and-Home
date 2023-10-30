@@ -1,0 +1,8 @@
+{
+    "parent": "hearth_and_home:block/shingles/shingle_stairs",
+    "textures": {
+        "bottom": "hearth_and_home:block/shingles/pink",
+        "side": "hearth_and_home:block/shingles/pink",
+        "top": "hearth_and_home:block/shingles/pink"
+    }
+}

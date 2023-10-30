@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "hearth_and_home:tiles_dyeing",
+    "ingredients": [
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        },
+        {
+            "item": "hearth_and_home:tiles"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:cyan_tiles",
+        "count": 8
+    }
+}

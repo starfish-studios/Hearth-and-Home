@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "top=true": {
+            "model": "hearth_and_home:block/chimney/sandstone_top"
+        },
+        "top=false": {
+            "model": "hearth_and_home:block/chimney/sandstone_column"
+        }
+    }
+}

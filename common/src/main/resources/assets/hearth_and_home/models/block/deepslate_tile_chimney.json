@@ -1,0 +1,8 @@
+{
+	"parent": "hearth_and_home:block/chimney",
+	"textures": {
+		"main": "minecraft:block/deepslate_tiles",
+		"particle": "minecraft:block/deepslate_tiles",
+		"top": "hearth_and_home:block/deepslate_tile_top"
+	}
+}

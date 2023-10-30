@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:column",
+    "pattern": [
+        "S",
+        "S"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:smooth_quartz"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:quartz_column",
+        "count": 2
+    }
+}

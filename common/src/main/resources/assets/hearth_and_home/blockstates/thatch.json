@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hearth_and_home:block/thatch",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hearth_and_home:block/thatch"
+    },
+    "axis=z": {
+      "model": "hearth_and_home:block/thatch",
+      "x": 90
+    }
+  }
+}

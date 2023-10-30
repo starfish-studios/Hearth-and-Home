@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "hearth_and_home:block/terracotta_bricks/orange_slab"
+        },
+        "type=double": {
+            "model": "hearth_and_home:block/terracotta_bricks/orange"
+        },
+        "type=top": {
+            "model": "hearth_and_home:block/terracotta_bricks/orange_slab_top"
+        }
+    }
+}

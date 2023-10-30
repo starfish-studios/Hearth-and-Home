@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "hearth_and_home:brown_terracotta_bricks"
+    },
+    "result": "hearth_and_home:brown_terracotta_brick_stairs",
+    "count": 1
+}

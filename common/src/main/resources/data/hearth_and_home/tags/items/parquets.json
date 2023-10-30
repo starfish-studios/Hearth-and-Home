@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"hearth_and_home:oak_parquet",
+		"hearth_and_home:spruce_parquet",
+		"hearth_and_home:birch_parquet",
+		"hearth_and_home:jungle_parquet",
+		"hearth_and_home:acacia_parquet",
+		"hearth_and_home:dark_oak_parquet",
+		"hearth_and_home:mangrove_parquet",
+		"hearth_and_home:cherry_parquet",
+		"hearth_and_home:bamboo_parquet",
+		"hearth_and_home:crimson_parquet",
+		"hearth_and_home:warped_parquet"
+	]
+}

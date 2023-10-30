@@ -1,8 +1,0 @@
-{
-    "parent": "hnh:block/template/lattice_left",
-    "textures": {
-        "main": "hnh:block/lattice/crimson",
-        "bar": "hnh:block/lattice/crimson_bar",
-        "particle": "#main"
-    }
-}

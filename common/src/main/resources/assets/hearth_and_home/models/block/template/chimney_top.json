@@ -1,0 +1,41 @@
+{
+	"parent": "minecraft:block/block",
+	"render_type": "cutout",
+	"textures": {
+		"overlay": "hearth_and_home:block/chimney_overlay",
+		"block": "minecraft:block/bricks",
+		"particle": "#block"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 8, 14],
+			"faces": {
+				"north": {"uv": [2, 8, 14, 16], "texture": "#block"},
+				"east": {"uv": [2, 8, 14, 16], "texture": "#block"},
+				"south": {"uv": [2, 8, 14, 16], "texture": "#block"},
+				"west": {"uv": [2, 8, 14, 16], "texture": "#block"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#block"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#block"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#block"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#block"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#block"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#block", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#block"}
+			}
+		},
+		{
+			"from": [0, 16.05, 0],
+			"to": [16, 16.05, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#overlay", "cullface": "up"}
+			}
+		}
+	]
+}

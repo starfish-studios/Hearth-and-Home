@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:lattices",
+    "pattern": [
+        "SPS",
+        "PSP",
+        "SPS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "minecraft:birch_planks"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:birch_lattice",
+        "count": 6
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"hearth_and_home:stone_column",
+		"hearth_and_home:calcite_column",
+		"hearth_and_home:quartz_column"
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "hearth_and_home:block/shingles/orange_slab"
+        },
+        "type=double": {
+            "model": "hearth_and_home:block/shingles/orange"
+        },
+        "type=top": {
+            "model": "hearth_and_home:block/shingles/orange_slab_top"
+        }
+    }
+}

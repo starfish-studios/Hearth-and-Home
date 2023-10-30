@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hearth_and_home:block/polished_calcite",
+    "side": "hearth_and_home:block/column/calcite_bottom"
+  }
+}

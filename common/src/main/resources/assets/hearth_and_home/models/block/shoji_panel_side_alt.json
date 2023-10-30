@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "render_type": "cutout",
+  "textures": {
+    "edge": "hearth_and_home:block/shoji_panel_top",
+    "pane": "hearth_and_home:block/shoji_panel"
+  }
+}

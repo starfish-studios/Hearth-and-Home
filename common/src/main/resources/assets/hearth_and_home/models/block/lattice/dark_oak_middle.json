@@ -1,0 +1,7 @@
+{
+    "parent": "hearth_and_home:block/template/lattice_middle",
+    "textures": {
+        "main": "hearth_and_home:block/lattice/dark_oak",
+        "particle": "#main"
+    }
+}

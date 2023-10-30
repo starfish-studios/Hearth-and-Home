@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "hearth_and_home:block/shingles/yellow",
+        "side": "hearth_and_home:block/shingles/yellow",
+        "top": "hearth_and_home:block/shingles/yellow"
+    }
+}

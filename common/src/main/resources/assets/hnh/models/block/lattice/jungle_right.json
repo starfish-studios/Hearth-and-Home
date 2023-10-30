@@ -1,8 +1,0 @@
-{
-    "parent": "hnh:block/template/lattice_right",
-    "textures": {
-        "main": "hnh:block/lattice/jungle",
-        "bar": "hnh:block/lattice/jungle_bar",
-        "particle": "#main"
-    }
-}

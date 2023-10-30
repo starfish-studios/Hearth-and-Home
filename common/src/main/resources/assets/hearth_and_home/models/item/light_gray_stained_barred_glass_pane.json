@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "render_type": "minecraft:translucent",
+    "textures": {
+        "layer0": "hearth_and_home:block/barred_glass/light_gray"
+    }
+}

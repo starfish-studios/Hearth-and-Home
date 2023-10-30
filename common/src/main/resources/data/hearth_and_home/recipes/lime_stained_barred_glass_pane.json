@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:stained_barred_glass_panes",
+    "pattern": [
+        "GGG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "item": "hearth_and_home:lime_stained_barred_glass"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:lime_stained_barred_glass_pane",
+        "count": 16
+    }
+}

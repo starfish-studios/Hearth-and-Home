@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "hearth_and_home:block/terracotta_bricks/blue",
+        "side": "hearth_and_home:block/terracotta_bricks/blue",
+        "top": "hearth_and_home:block/terracotta_bricks/blue"
+    }
+}

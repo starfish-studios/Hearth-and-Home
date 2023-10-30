@@ -1,14 +1,14 @@
 {
 	"replace": false,
 	"values": [
-		"#hnh:trims",
-		"#hnh:parquets",
-		"#hnh:sanded_wood",
-		"#hnh:lattices",
-		"hnh:woven_bamboo",
-		"hnh:bamboo_mat",
-		"hnh:thatch",
-		"hnh:thatch_stairs",
-		"hnh:thatch_slab"
+		"#hearth_and_home:trims",
+		"#hearth_and_home:parquets",
+		"#hearth_and_home:sanded_wood",
+		"#hearth_and_home:lattices",
+		"hearth_and_home:woven_bamboo",
+		"hearth_and_home:bamboo_mat",
+		"hearth_and_home:thatch",
+		"hearth_and_home:thatch_stairs",
+		"hearth_and_home:thatch_slab"
 	]
 }

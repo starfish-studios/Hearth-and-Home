@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "hearth_and_home:block/terracotta_bricks/cyan_slab"
+        },
+        "type=double": {
+            "model": "hearth_and_home:block/terracotta_bricks/cyan"
+        },
+        "type=top": {
+            "model": "hearth_and_home:block/terracotta_bricks/cyan_slab_top"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "hearth_and_home:block/chimney",
+	"textures": {
+		"main": "minecraft:block/polished_blackstone_bricks",
+		"particle": "minecraft:block/polished_blackstone_bricks",
+		"top": "hearth_and_home:block/polished_blackstone_brick_top"
+	}
+}

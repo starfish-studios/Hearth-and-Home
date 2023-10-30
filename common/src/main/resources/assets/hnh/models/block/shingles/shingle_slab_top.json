@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/slab_top",
-    "textures": {
-        "bottom": "hnh:block/shingles/shingles",
-        "side": "hnh:block/shingles/shingles",
-        "top": "hnh:block/shingles/shingles"
-    }
-}

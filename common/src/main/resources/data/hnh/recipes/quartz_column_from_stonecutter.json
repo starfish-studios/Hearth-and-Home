@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:smooth_quartz"
-    },
-    "result": "hnh:quartz_column",
-    "count": 1
-}

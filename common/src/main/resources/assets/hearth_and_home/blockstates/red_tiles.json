@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "hearth_and_home:block/tiles/red_flipped"
+        },
+        "facing=north": {
+            "model": "hearth_and_home:block/tiles/red"
+        },
+        "facing=south": {
+            "model": "hearth_and_home:block/tiles/red"
+        },
+        "facing=west": {
+            "model": "hearth_and_home:block/tiles/red_flipped"
+        }
+    }
+}

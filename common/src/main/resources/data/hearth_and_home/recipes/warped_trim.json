@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "trim",
+    "pattern": [
+        "O",
+        "L",
+        "O"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:warped_planks"
+        },
+        "L": {
+            "item": "minecraft:stripped_warped_log"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:warped_trim",
+        "count": 6
+    }
+}

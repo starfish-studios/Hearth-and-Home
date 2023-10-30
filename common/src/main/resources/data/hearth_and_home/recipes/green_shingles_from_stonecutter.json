@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:green_terracotta"
+    },
+    "result": "hearth_and_home:green_shingles",
+    "count": 1
+}

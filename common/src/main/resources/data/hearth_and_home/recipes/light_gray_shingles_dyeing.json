@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "hearth_and_home:shingles_dyeing",
+    "ingredients": [
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "minecraft:light_gray_dye"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        },
+        {
+            "item": "hearth_and_home:shingles"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:light_gray_shingles",
+        "count": 8
+    }
+}

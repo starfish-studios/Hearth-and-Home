@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "hearth_and_home:stone_brick_chimney"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

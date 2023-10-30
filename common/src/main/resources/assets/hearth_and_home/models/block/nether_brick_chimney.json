@@ -1,0 +1,8 @@
+{
+	"parent": "hearth_and_home:block/chimney",
+	"textures": {
+		"main": "minecraft:block/nether_bricks",
+		"particle": "minecraft:block/nether_bricks",
+		"top": "hearth_and_home:block/nether_brick_top"
+	}
+}

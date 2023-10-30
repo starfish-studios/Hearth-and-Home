@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "hearth_and_home:gray_shingles"
+    },
+    "result": "hearth_and_home:gray_shingle_stairs",
+    "count": 1
+}

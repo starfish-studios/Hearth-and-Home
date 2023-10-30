@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WS",
+        "SW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:thatch",
+        "count": 1
+    }
+}

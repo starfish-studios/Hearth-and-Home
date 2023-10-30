@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "hnh:white_terracotta_bricks"
-    },
-    "result": "hnh:white_terracotta_brick_slab",
-    "count": 2
-}

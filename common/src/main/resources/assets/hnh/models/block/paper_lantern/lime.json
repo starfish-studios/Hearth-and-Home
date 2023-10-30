@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "hnh:block/paper_lantern/lime_top",
-        "side": "hnh:block/paper_lantern/lime_side"
-    }
-}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "hearth_and_home:block/tiles/black_flipped",
+        "side": "hearth_and_home:block/tiles/black_flipped",
+        "top": "hearth_and_home:block/tiles/black_flipped"
+    }
+}

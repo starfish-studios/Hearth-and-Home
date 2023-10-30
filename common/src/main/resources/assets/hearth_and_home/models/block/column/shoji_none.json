@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "hearth_and_home:block/shoji_none",
+    "side": "hearth_and_home:block/shoji_none"
+  }
+}

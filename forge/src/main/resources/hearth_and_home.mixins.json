@@ -6,7 +6,8 @@
   "client": [
   ],
   "mixins": [
-    "com.starfish_studios.hearth_and_home.forge.FireBlockAccessor"
+    "FireBlockAccessor",
+    "AbstractFurnaceBlockEntityAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

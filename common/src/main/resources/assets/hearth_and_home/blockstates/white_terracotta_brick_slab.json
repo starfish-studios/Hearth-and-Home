@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hearth_and_home:block/terracotta_bricks/white_slab"
+    },
+    "type=double": {
+      "model": "hearth_and_home:block/terracotta_bricks/white"
+    },
+    "type=top": {
+      "model": "hearth_and_home:block/terracotta_bricks/white_slab_top"
+    }
+  }
+}

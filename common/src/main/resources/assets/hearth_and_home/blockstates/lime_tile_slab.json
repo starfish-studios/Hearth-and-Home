@@ -1,0 +1,40 @@
+{
+    "variants": {
+        "facing=north,type=bottom": {
+            "model": "hearth_and_home:block/tiles/lime_slab"
+        },
+        "facing=north,type=top": {
+            "model": "hearth_and_home:block/tiles/lime_slab_top"
+        },
+        "facing=north,type=double": {
+            "model": "hearth_and_home:block/tiles/lime"
+        },
+        "facing=east,type=bottom": {
+            "model": "hearth_and_home:block/tiles/lime_slab_flipped"
+        },
+        "facing=east,type=top": {
+            "model": "hearth_and_home:block/tiles/lime_slab_top_flipped"
+        },
+        "facing=east,type=double": {
+            "model": "hearth_and_home:block/tiles/lime_flipped"
+        },
+        "facing=south,type=bottom": {
+            "model": "hearth_and_home:block/tiles/lime_slab"
+        },
+        "facing=south,type=top": {
+            "model": "hearth_and_home:block/tiles/lime_slab_top"
+        },
+        "facing=south,type=double": {
+            "model": "hearth_and_home:block/tiles/lime"
+        },
+        "facing=west,type=bottom": {
+            "model": "hearth_and_home:block/tiles/lime_slab_flipped"
+        },
+        "facing=west,type=top": {
+            "model": "hearth_and_home:block/tiles/lime_slab_top_flipped"
+        },
+        "facing=west,type=double": {
+            "model": "hearth_and_home:block/tiles/lime_flipped"
+        }
+    }
+}

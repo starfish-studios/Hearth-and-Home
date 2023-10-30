@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:light_gray_terracotta"
+    },
+    "result": "hearth_and_home:light_gray_shingle_slab",
+    "count": 2
+}

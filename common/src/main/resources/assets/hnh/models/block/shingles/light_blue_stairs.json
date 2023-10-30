@@ -1,8 +1,0 @@
-{
-    "parent": "hnh:block/shingles/shingle_stairs",
-    "textures": {
-        "bottom": "hnh:block/shingles/light_blue",
-        "side": "hnh:block/shingles/light_blue",
-        "top": "hnh:block/shingles/light_blue"
-    }
-}

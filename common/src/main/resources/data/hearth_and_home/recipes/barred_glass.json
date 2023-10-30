@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GIG",
+        "III",
+        "GIG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:barred_glass",
+        "count": 4
+    }
+}

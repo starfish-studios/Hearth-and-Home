@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "paper_lanterns",
+    "ingredients": [
+        {
+            "item": "minecraft:purple_dye"
+        },
+        {
+            "item": "hearth_and_home:white_paper_lantern"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:purple_paper_lantern"
+    }
+}

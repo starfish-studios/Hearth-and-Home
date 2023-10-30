@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "trim",
+    "ingredients": [
+        {
+            "item": "hearth_and_home:dark_oak_vertical_trim"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:dark_oak_trim"
+    }
+}

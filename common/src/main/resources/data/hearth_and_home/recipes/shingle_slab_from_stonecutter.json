@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "hearth_and_home:shingles"
+    },
+    "result": "hearth_and_home:shingle_slab",
+    "count": 2
+}

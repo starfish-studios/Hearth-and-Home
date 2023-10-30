@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,horizontal=single": {
+            "model": "hearth_and_home:block/lattice/cherry"
+        },
+        "facing=east,horizontal=single": {
+            "model": "hearth_and_home:block/lattice/cherry",
+            "y": 90
+        },
+        "facing=south,horizontal=single": {
+            "model": "hearth_and_home:block/lattice/cherry",
+            "y": 180
+        },
+        "facing=west,horizontal=single": {
+            "model": "hearth_and_home:block/lattice/cherry",
+            "y": 270
+        },
+        "facing=north,horizontal=left": {
+            "model": "hearth_and_home:block/lattice/cherry_left"
+        },
+        "facing=east,horizontal=left": {
+            "model": "hearth_and_home:block/lattice/cherry_left",
+            "y": 90
+        },
+        "facing=south,horizontal=left": {
+            "model": "hearth_and_home:block/lattice/cherry_left",
+            "y": 180
+        },
+        "facing=west,horizontal=left": {
+            "model": "hearth_and_home:block/lattice/cherry_left",
+            "y": 270
+        },
+        "facing=north,horizontal=middle": {
+            "model": "hearth_and_home:block/lattice/cherry_middle"
+        },
+        "facing=east,horizontal=middle": {
+            "model": "hearth_and_home:block/lattice/cherry_middle",
+            "y": 90
+        },
+        "facing=south,horizontal=middle": {
+            "model": "hearth_and_home:block/lattice/cherry_middle",
+            "y": 180
+        },
+        "facing=west,horizontal=middle": {
+            "model": "hearth_and_home:block/lattice/cherry_middle",
+            "y": 270
+        },
+        "facing=north,horizontal=right": {
+            "model": "hearth_and_home:block/lattice/cherry_right"
+        },
+        "facing=east,horizontal=right": {
+            "model": "hearth_and_home:block/lattice/cherry_right",
+            "y": 90
+        },
+        "facing=south,horizontal=right": {
+            "model": "hearth_and_home:block/lattice/cherry_right",
+            "y": 180
+        },
+        "facing=west,horizontal=right": {
+            "model": "hearth_and_home:block/lattice/cherry_right",
+            "y": 270
+        }
+    }
+}

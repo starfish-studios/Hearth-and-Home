@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        },
+        {
+            "item": "minecraft:cherry_planks"
+        }
+    ],
+    "result": {
+        "item": "hearth_and_home:cherry_sanded_wood",
+        "count": 8
+    }
+}

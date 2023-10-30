@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "hnh:blue_tiles"
-    },
-    "result": "hnh:blue_tile_slab",
-    "count": 2
-}

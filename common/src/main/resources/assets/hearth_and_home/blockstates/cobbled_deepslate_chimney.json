@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "top=true": {
+            "model": "hearth_and_home:block/chimney/cobbled_deepslate_top"
+        },
+        "top=false": {
+            "model": "hearth_and_home:block/chimney/cobbled_deepslate_column"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_torch_wall",
+  "render_type": "cutout",
+  "textures": {
+    "torch": "hearth_and_home:block/iron_torch"
+  }
+}

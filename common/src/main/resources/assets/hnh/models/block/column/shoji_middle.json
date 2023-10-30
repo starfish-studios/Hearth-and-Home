@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "hnh:block/shoji_none",
-    "side": "hnh:block/shoji_middle"
-  }
-}
