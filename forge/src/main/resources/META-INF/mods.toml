@@ -4,7 +4,7 @@ license = "MIT"
 issueTrackerURL = "https://github.com/starfish-studios/Hearth-and-Home"
 
 [[mods]]
-modId = "hnh"
+modId = "hearth_and_home"
 version = "${version}"
 displayName = "Hearth & Home"
 #updateJSONURL="http://myurl.me/"
@@ -16,14 +16,14 @@ description = '''
 Adds a wide range of new building blocks, adding a touch of warmth and comfort to your world!
 '''
 
-[[dependencies.hnh]]
+[[dependencies.hearth_and_home]]
 modId = "forge"
 mandatory = true
 versionRange = "[47.2.0,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.hnh]]
+[[dependencies.hearth_and_home]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,1.21)"
