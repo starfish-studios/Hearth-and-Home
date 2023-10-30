@@ -6,7 +6,7 @@
             "item": "minecraft:light_blue_dye"
         },
         {
-            "item": "hearth_and_home:white_paper_lantern"
+            "tag": "hearth_and_home:paper_lanterns"
         }
     ],
     "result": {

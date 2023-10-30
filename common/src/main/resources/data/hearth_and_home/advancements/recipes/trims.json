@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:planks"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hearth_and_home:spruce_trim",
+			"hearth_and_home:birch_trim",
+			"hearth_and_home:jungle_trim",
+			"hearth_and_home:acacia_trim",
+			"hearth_and_home:dark_oak_trim",
+			"hearth_and_home:mangrove_trim",
+			"hearth_and_home:cherry_trim",
+			"hearth_and_home:bamboo_trim",
+			"hearth_and_home:crimson_trim",
+			"hearth_and_home:warped_trim"
+        ]
+    }
+}

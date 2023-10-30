@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "hearth_and_home:polished_calcite"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "hearth_and_home:quartz_column"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_item",
+			"has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hearth_and_home:calcite_column",
+			"hearth_and_home:calcite_column_from_stonecutter"
+        ]
+    }
+}

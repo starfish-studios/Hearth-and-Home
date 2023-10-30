@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "hearth_and_home:shingles",
+    "pattern": [
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "hearth_and_home:orange_shingles"
+        }
+    },
+    "result": {
+        "item": "hearth_and_home:orange_shingle_slab",
+        "count": 6
+    }
+}

@@ -37,8 +37,8 @@ public class HNHBlocks {
     public static final Supplier<Block> SHOJI = registerBlock("shoji", () -> new ColumnBlock(Block.Properties.of().strength(0.3F).sound(SoundType.WOOL)));
     public static final Supplier<Block> SHOJI_PANEL = registerBlock("shoji_panel", () -> new IronBarsBlock(Block.Properties.of().strength(0.3F).sound(SoundType.WOOL)));
 
-    public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.of().strength(0.5F).sound(SoundType.BAMBOO)));
-    public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of().strength(0.5F).sound(SoundType.BAMBOO).noOcclusion()));
+    public static final Supplier<Block> WOVEN_BAMBOO = registerBlock("woven_bamboo", () -> new Block(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS)));
+    public static final Supplier<Block> BAMBOO_MAT = registerBlock("bamboo_mat", () -> new CarpetBlock(BlockBehaviour.Properties.of().strength(0.5F).sound(SoundType.BAMBOO_WOOD).noOcclusion()));
 
     // Columns
     public static final Supplier<Block> STONE_COLUMN = registerBlock("stone_column", () -> new ColumnBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
@@ -368,6 +368,67 @@ public class HNHBlocks {
 
     public static void registerFlammables() {
         HNHRegistry.setFlammable(OAK_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(SPRUCE_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(BIRCH_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(JUNGLE_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(ACACIA_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(DARK_OAK_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(MANGROVE_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(CHERRY_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(CRIMSON_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(WARPED_PARQUET, 5, 20);
+        HNHRegistry.setFlammable(OAK_TRIM, 5, 20);
+        HNHRegistry.setFlammable(SPRUCE_TRIM, 5, 20);
+        HNHRegistry.setFlammable(BIRCH_TRIM, 5, 20);
+        HNHRegistry.setFlammable(JUNGLE_TRIM, 5, 20);
+        HNHRegistry.setFlammable(ACACIA_TRIM, 5, 20);
+        HNHRegistry.setFlammable(DARK_OAK_TRIM, 5, 20);
+        HNHRegistry.setFlammable(MANGROVE_TRIM, 5, 20);
+        HNHRegistry.setFlammable(CHERRY_TRIM, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_TRIM, 5, 20);
+        HNHRegistry.setFlammable(CRIMSON_TRIM, 5, 20);
+        HNHRegistry.setFlammable(WARPED_TRIM, 5, 20);
+        HNHRegistry.setFlammable(OAK_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(SPRUCE_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(BIRCH_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(JUNGLE_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(ACACIA_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(DARK_OAK_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(MANGROVE_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(CHERRY_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(CRIMSON_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(WARPED_VERTICAL_TRIM, 5, 20);
+        HNHRegistry.setFlammable(OAK_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(SPRUCE_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(BIRCH_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(JUNGLE_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(ACACIA_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(DARK_OAK_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(MANGROVE_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(CHERRY_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(CRIMSON_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(WARPED_SANDED_WOOD, 5, 20);
+        HNHRegistry.setFlammable(OAK_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(SPRUCE_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(BIRCH_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(JUNGLE_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(ACACIA_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(DARK_OAK_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(MANGROVE_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(CHERRY_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(CRIMSON_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(WARPED_LATTICE, 5, 20);
+        HNHRegistry.setFlammable(THATCH, 5, 20);
+        HNHRegistry.setFlammable(THATCH_SLAB, 5, 20);
+        HNHRegistry.setFlammable(THATCH_STAIRS, 5, 20);
+        HNHRegistry.setFlammable(WOVEN_BAMBOO, 5, 20);
+        HNHRegistry.setFlammable(BAMBOO_MAT, 5, 20);
+        HNHRegistry.setFlammable(SHOJI, 5, 20);
+        HNHRegistry.setFlammable(SHOJI_PANEL, 5, 20);
     }
 
     public static void init() {}

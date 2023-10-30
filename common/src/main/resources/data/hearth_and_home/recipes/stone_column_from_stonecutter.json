@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:smooth_stone"
+    },
+    "result": "hearth_and_home:stone_column",
+    "count": 1
+}

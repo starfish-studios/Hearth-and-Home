@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "SS",
-        "SS"
+        "SSS",
+        "SSS"
     ],
     "key": {
         "S": {
@@ -11,6 +11,6 @@
     },
     "result": {
         "item": "hearth_and_home:shoji_panel",
-        "count": 4
+        "count": 6
     }
 }

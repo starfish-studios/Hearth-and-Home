@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:planks"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hearth_and_home:spruce_lattice",
+			"hearth_and_home:birch_lattice",
+			"hearth_and_home:jungle_lattice",
+			"hearth_and_home:acacia_lattice",
+			"hearth_and_home:dark_oak_lattice",
+			"hearth_and_home:mangrove_lattice",
+			"hearth_and_home:cherry_lattice",
+			"hearth_and_home:bamboo_lattice",
+			"hearth_and_home:crimson_lattice",
+			"hearth_and_home:warped_lattice"
+        ]
+    }
+}

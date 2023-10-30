@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "hearth_and_home:trims"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hearth_and_home:spruce_vertical_trim",
+			"hearth_and_home:birch_vertical_trim",
+			"hearth_and_home:jungle_vertical_trim",
+			"hearth_and_home:acacia_vertical_trim",
+			"hearth_and_home:dark_oak_vertical_trim",
+			"hearth_and_home:mangrove_vertical_trim",
+			"hearth_and_home:cherry_vertical_trim",
+			"hearth_and_home:bamboo_vertical_trim",
+			"hearth_and_home:crimson_vertical_trim",
+			"hearth_and_home:warped_vertical_trim",
+			"hearth_and_home:spruce_trim_from_spruce_vertical_trim",
+			"hearth_and_home:birch_trim_from_birch_vertical_trim",
+			"hearth_and_home:jungle_trim_from_jungle_vertical_trim",
+			"hearth_and_home:acacia_trim_from_acacia_vertical_trim",
+			"hearth_and_home:dark_oak_trim_from_dark_oak_vertical_trim",
+			"hearth_and_home:mangrove_trim_from_mangrove_vertical_trim",
+			"hearth_and_home:cherry_trim_from_cherry_vertical_trim",
+			"hearth_and_home:bamboo_trim_from_bamboo_vertical_trim",
+			"hearth_and_home:crimson_trim_from_crimson_vertical_trim",
+			"hearth_and_home:warped_trim_from_warped_vertical_trim"
+        ]
+    }
+}

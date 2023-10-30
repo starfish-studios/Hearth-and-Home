@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_item": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:glass"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hearth_and_home:barred_glass",
+			"hearth_and_home:white_stained_barred_glass",
+			"hearth_and_home:orange_stained_barred_glass",
+			"hearth_and_home:magenta_stained_barred_glass",
+			"hearth_and_home:light_blue_stained_barred_glass",
+			"hearth_and_home:yellow_stained_barred_glass",
+			"hearth_and_home:lime_stained_barred_glass",
+			"hearth_and_home:pink_stained_barred_glass",
+			"hearth_and_home:gray_stained_barred_glass",
+			"hearth_and_home:light_gray_stained_barred_glass",
+			"hearth_and_home:cyan_stained_barred_glass",
+			"hearth_and_home:purple_stained_barred_glass",
+			"hearth_and_home:blue_stained_barred_glass",
+			"hearth_and_home:brown_stained_barred_glass",
+			"hearth_and_home:green_stained_barred_glass",
+			"hearth_and_home:red_stained_barred_glass",
+			"hearth_and_home:black_stained_barred_glass"
+        ]
+    }
+}

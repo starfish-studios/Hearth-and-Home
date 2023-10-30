@@ -6,7 +6,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:campfire"
+                            "minecraft:paper"
                         ]
                     }
                 ]
@@ -21,29 +21,23 @@
     ],
     "rewards": {
         "recipes": [
-            "hearth_and_home:cobblestone_chimney",
-			"hearth_and_home:mossy_cobblestone_chimney",
-			"hearth_and_home:stone_brick_chimney",
-			"hearth_and_home:mossy_stone_brick_chimney",
-			"hearth_and_home:granite_chimney",
-			"hearth_and_home:diorite_chimney",
-			"hearth_and_home:andesite_chimney",
-			"hearth_and_home:cobbled_deepslate_chimney",
-			"hearth_and_home:polished_deepslate_chimney",
-			"hearth_and_home:deepslate_brick_chimney",
-			"hearth_and_home:deepslate_tile_chimney",
-			"hearth_and_home:brick_chimney",
-			"hearth_and_home:mud_brick_chimney",
-			"hearth_and_home:sandstone_chimney",
-			"hearth_and_home:red_standstone_chimney",
-			"hearth_and_home:prismarine_chimney",
-			"hearth_and_home:nether_brick_chimney",
-			"hearth_and_home:red_nether_brick_chimney",
-			"hearth_and_home:blackstone_chimney",
-			"hearth_and_home:polished_blackstone_chimney",
-			"hearth_and_home:polished_blackstone_brick_chimney",
-			"hearth_and_home:end_stone_brick_chimney",
-			"hearth_and_home:cobblestone_brick_chimney"
+			"hearth_and_home:white_paper_lantern",
+            "hearth_and_home:white_paper_lantern_dyeing",
+			"hearth_and_home:orange_paper_lantern_dyeing",
+			"hearth_and_home:magenta_paper_lantern_dyeing",
+			"hearth_and_home:light_blue_paper_lantern_dyeing",
+			"hearth_and_home:yellow_paper_lantern_dyeing",
+			"hearth_and_home:lime_paper_lantern_dyeing",
+			"hearth_and_home:pink_paper_lantern_dyeing",
+			"hearth_and_home:gray_paper_lantern_dyeing",
+			"hearth_and_home:light_gray_paper_lantern_dyeing",
+			"hearth_and_home:cyan_paper_lantern_dyeing",
+			"hearth_and_home:purple_paper_lantern_dyeing",
+			"hearth_and_home:blue_paper_lantern_dyeing",
+			"hearth_and_home:brown_paper_lantern_dyeing",
+			"hearth_and_home:green_paper_lantern_dyeing",
+			"hearth_and_home:red_paper_lantern_dyeing",
+			"hearth_and_home:black_paper_lantern_dyeing"
         ]
     }
 }
