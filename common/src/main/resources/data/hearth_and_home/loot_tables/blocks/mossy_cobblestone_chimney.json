@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "hearth_and_home:brick_chimney"
+                    "name": "hearth_and_home:mossy_cobblestone_chimney"
                 }
             ],
             "rolls": 1.0

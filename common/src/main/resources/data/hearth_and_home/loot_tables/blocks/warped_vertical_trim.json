@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "hearth_and_home:brick_chimney"
+                    "name": "hearth_and_home:warped_vertical_trim"
                 }
             ],
             "rolls": 1.0

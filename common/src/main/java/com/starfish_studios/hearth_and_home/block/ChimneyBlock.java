@@ -55,9 +55,8 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
         BlockPos blockPos = context.getClickedPos();
 
         boolean top = getTopState(levelAccessor.getBlockState(blockPos.above()));
-
         boolean bl = levelAccessor.getFluidState(blockPos).getType() == Fluids.WATER;
-        return this.defaultBlockState().setValue(TOP, top).setValue(WATERLOGGED, bl);
+        return this.defaultBlockState().setValue(TOP, top).setValue(WATERLOGGED, bl).setValue(LIT, !bl);
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
@@ -83,6 +82,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
 
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        if (!state.getValue(TOP)) return InteractionResult.PASS;
         ItemStack stack = player.getItemInHand(hand);
         if (stack.is(ItemTags.SHOVELS) && state.getValue(LIT)) {
             level.setBlock(pos, state.setValue(LIT, false), 3);
@@ -104,12 +104,15 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     }
 
     public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos currentPos, BlockPos neighborPos) {
-        if (state.getValue(WATERLOGGED)) level.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
+        boolean waterlogged = state.getValue(WATERLOGGED);
+        if (waterlogged) {
+            if (state.getValue(LIT)) state = state.setValue(LIT, false);
+            level.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
+        }
 
         if (direction == Direction.UP) {
             state = state.setValue(TOP, getTopState(neighborState));
-            if (neighborState.getBlock() instanceof ChimneyBlock) state = state.setValue(LIT, neighborState.getValue(LIT));
-            return state;
+            if (neighborState.getBlock() instanceof ChimneyBlock) state = state.setValue(LIT, neighborState.getValue(LIT) && !waterlogged);
         }
 
         return super.updateShape(state, direction, neighborState, level, currentPos, neighborPos);
@@ -122,7 +125,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
     public boolean placeLiquid(LevelAccessor level, BlockPos pos, BlockState state, FluidState fluidState) {
         if (state.getValue(BlockStateProperties.WATERLOGGED) && fluidState.getType() == Fluids.WATER) return false;
 
-        if (state.getValue(LIT) && !level.isClientSide()) level.playSound(null, pos, SoundEvents.GENERIC_EXTINGUISH_FIRE, SoundSource.BLOCKS, 1.0F, 1.0F);
+        if (state.getValue(LIT) && state.getValue(TOP) && !level.isClientSide()) level.playSound(null, pos, SoundEvents.GENERIC_EXTINGUISH_FIRE, SoundSource.BLOCKS, 1.0F, 1.0F);
 
         level.setBlock(pos, state.setValue(WATERLOGGED, true).setValue(LIT, false), 3);
         level.scheduleTick(pos, fluidState.getType(), fluidState.getType().getTickDelay(level));
