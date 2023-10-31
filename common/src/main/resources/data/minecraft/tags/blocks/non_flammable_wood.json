@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"hearth_and_home:crimson_trim",
+		"hearth_and_home:warped_trim",
+		"hearth_and_home:crimson_vertical_trim",
+		"hearth_and_home:warped_vertical_trim",
+		"hearth_and_home:crimson_sanded_wood",
+		"hearth_and_home:warped_sanded_wood",
+		"hearth_and_home:crimson_parquet",
+		"hearth_and_home:warped_parquet",
+		"hearth_and_home:crimson_lattice",
+		"hearth_and_home:warped_lattice"
+	]
+}
