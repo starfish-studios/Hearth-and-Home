@@ -376,8 +376,6 @@ public class HNHBlocks {
         HNHRegistry.setFlammable(MANGROVE_PARQUET, 5, 20);
         HNHRegistry.setFlammable(CHERRY_PARQUET, 5, 20);
         HNHRegistry.setFlammable(BAMBOO_PARQUET, 5, 20);
-        HNHRegistry.setFlammable(CRIMSON_PARQUET, 5, 20);
-        HNHRegistry.setFlammable(WARPED_PARQUET, 5, 20);
         HNHRegistry.setFlammable(OAK_TRIM, 5, 20);
         HNHRegistry.setFlammable(SPRUCE_TRIM, 5, 20);
         HNHRegistry.setFlammable(BIRCH_TRIM, 5, 20);
@@ -387,8 +385,6 @@ public class HNHBlocks {
         HNHRegistry.setFlammable(MANGROVE_TRIM, 5, 20);
         HNHRegistry.setFlammable(CHERRY_TRIM, 5, 20);
         HNHRegistry.setFlammable(BAMBOO_TRIM, 5, 20);
-        HNHRegistry.setFlammable(CRIMSON_TRIM, 5, 20);
-        HNHRegistry.setFlammable(WARPED_TRIM, 5, 20);
         HNHRegistry.setFlammable(OAK_VERTICAL_TRIM, 5, 20);
         HNHRegistry.setFlammable(SPRUCE_VERTICAL_TRIM, 5, 20);
         HNHRegistry.setFlammable(BIRCH_VERTICAL_TRIM, 5, 20);
@@ -398,8 +394,6 @@ public class HNHBlocks {
         HNHRegistry.setFlammable(MANGROVE_VERTICAL_TRIM, 5, 20);
         HNHRegistry.setFlammable(CHERRY_VERTICAL_TRIM, 5, 20);
         HNHRegistry.setFlammable(BAMBOO_VERTICAL_TRIM, 5, 20);
-        HNHRegistry.setFlammable(CRIMSON_VERTICAL_TRIM, 5, 20);
-        HNHRegistry.setFlammable(WARPED_VERTICAL_TRIM, 5, 20);
         HNHRegistry.setFlammable(OAK_SANDED_WOOD, 5, 20);
         HNHRegistry.setFlammable(SPRUCE_SANDED_WOOD, 5, 20);
         HNHRegistry.setFlammable(BIRCH_SANDED_WOOD, 5, 20);
@@ -409,8 +403,6 @@ public class HNHBlocks {
         HNHRegistry.setFlammable(MANGROVE_SANDED_WOOD, 5, 20);
         HNHRegistry.setFlammable(CHERRY_SANDED_WOOD, 5, 20);
         HNHRegistry.setFlammable(BAMBOO_SANDED_WOOD, 5, 20);
-        HNHRegistry.setFlammable(CRIMSON_SANDED_WOOD, 5, 20);
-        HNHRegistry.setFlammable(WARPED_SANDED_WOOD, 5, 20);
         HNHRegistry.setFlammable(OAK_LATTICE, 5, 20);
         HNHRegistry.setFlammable(SPRUCE_LATTICE, 5, 20);
         HNHRegistry.setFlammable(BIRCH_LATTICE, 5, 20);
@@ -420,8 +412,6 @@ public class HNHBlocks {
         HNHRegistry.setFlammable(MANGROVE_LATTICE, 5, 20);
         HNHRegistry.setFlammable(CHERRY_LATTICE, 5, 20);
         HNHRegistry.setFlammable(BAMBOO_LATTICE, 5, 20);
-        HNHRegistry.setFlammable(CRIMSON_LATTICE, 5, 20);
-        HNHRegistry.setFlammable(WARPED_LATTICE, 5, 20);
         HNHRegistry.setFlammable(THATCH, 5, 20);
         HNHRegistry.setFlammable(THATCH_SLAB, 5, 20);
         HNHRegistry.setFlammable(THATCH_STAIRS, 5, 20);

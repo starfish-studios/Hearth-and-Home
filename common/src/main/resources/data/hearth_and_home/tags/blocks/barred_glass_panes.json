@@ -1,6 +1,6 @@
 {
 	"values": [
-		"hearth_and_home:barred_glass",
-		"#hearth_and_home:stained_barred_glass"
+		"hearth_and_home:barred_glass_pane",
+		"#hearth_and_home:stained_barred_glass_panes"
 	]
 }

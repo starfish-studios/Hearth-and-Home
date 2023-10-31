@@ -87,6 +87,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
         if (stack.is(ItemTags.SHOVELS) && state.getValue(LIT)) {
             level.setBlock(pos, state.setValue(LIT, false), 3);
             player.getItemInHand(hand).hurtAndBreak(1, player, (playerx) -> playerx.broadcastBreakEvent(hand));
+            level.playSound(null, pos, SoundEvents.FIRE_EXTINGUISH, SoundSource.BLOCKS);
             player.swing(hand);
             return InteractionResult.SUCCESS;
         }
@@ -94,6 +95,7 @@ public class ChimneyBlock extends Block implements SimpleWaterloggedBlock {
             level.setBlock(pos, state.setValue(LIT, true), 3);
             //stack.shrink(1);
             Utils.hurtStack(player, stack, hand);
+            level.playSound(null, pos, SoundEvents.FIRECHARGE_USE, SoundSource.BLOCKS);
             player.swing(hand);
             return InteractionResult.SUCCESS;
         }
