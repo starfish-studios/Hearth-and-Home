@@ -1,7 +1,10 @@
 {
     "variants": {
-        "top=true": {
-            "model": "hearth_and_home:block/chimney/mossy_stone_brick_top"
+        "top=true,lit=true": {
+            "model": "hearth_and_home:block/chimney/mossy_stone_brick_top_lit"
+        },
+        "top=true,lit=false": {
+            "model": "hearth_and_home:block/chimney/mossy_stone_brick_top_unlit"
         },
         "top=false": {
             "model": "hearth_and_home:block/chimney/mossy_stone_brick_column"

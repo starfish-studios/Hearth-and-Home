@@ -1,6 +1,0 @@
-{
-    "parent": "hearth_and_home:block/template/chimney_top",
-    "textures": {
-        "block": "hearth_and_home:block/cobblestone_bricks"
-    }
-}
